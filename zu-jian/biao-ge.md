@@ -62,7 +62,7 @@ var grid = $("div1").initPlgGrid(opts);
 | :--- | :--- |
 | skin | 皮肤样式 |
 | renderer | 渲染节点 |
-| columns | 列配置 |
+| columns | 列数组配置，如：[{id:"platformId",name:"平台",type:'ro'},{id:"enable",name:"是否可用",type:'ch'}]，配置项：id - 数据索引,name - 显示名称,type - 类型（）,sort - 排序方式（）,align - 对齐方式（）,width - 宽度（）,hidden - 是否隐藏（true/false,默认false) |
 | multiselect | 是否支持多选，默认false |
 | url | 数据接口 |
 | params | 数据接口提交参数 |
