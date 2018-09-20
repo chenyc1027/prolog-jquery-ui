@@ -62,8 +62,7 @@ var grid = $("div1").initPlgGrid(opts);
 | :--- | :--- |
 | skin | 皮肤样式 |
 | renderer | 渲染节点 |
-| columns | 数据列名称，“,”分隔的字符串，如“id,number,name” |
-| headers | 表头，“,”分隔的字符串，如：“id,编号,名称” |
+| columns | 列配置 |
 | multiselect | 是否支持多选，默认false |
 | url | 数据接口 |
 | params | 数据接口提交参数 |
