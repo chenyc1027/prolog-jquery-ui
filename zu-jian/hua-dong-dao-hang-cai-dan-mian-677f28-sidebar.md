@@ -58,13 +58,10 @@ PlgSidebar
 构造方法
 
 ```js
-
-
 方法一：
 var Sidebar1= plgSidebar(
         {
-            url:"data.json",
-            isTrigger:true,
+            url:"data.json",  
             menuClick:function (data) {
                 var mid=data.meneId
                     ,othis=data.$this
@@ -79,8 +76,7 @@ var Sidebar1= plgSidebar(
 方法二：
 var Sidebar2=$("#app").plgSidebar(
         {
-            url:"data.json",
-            isTrigger:true,
+            url:"data.json", 
             menuClick:function (data) {
                 var mid=data.meneId
                     ,othis=data.$this
@@ -89,9 +85,8 @@ var Sidebar2=$("#app").plgSidebar(
 
             }
         }
-    
-    );
 
+    );
 ```
 
 
