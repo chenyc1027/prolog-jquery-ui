@@ -1,15 +1,18 @@
 ### 按钮组件
 
-
 > 组件名称
 
-
-
-```
+\\`\\`\\`
 
 PlgButton
 
-\`\`\`
+
+
+\\`\\`\\`
+
+
+
+
 
 
 
@@ -17,38 +20,49 @@ PlgButton
 
 
 
-\`\`\`js
+
+
+
+
+\\`\\`\\`js
+
+
 
 &lt;link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/&gt;
 
 
 
+
+
+
+
 &lt;script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+
+
 
 &lt;script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
 
+
+
 &lt;script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
+
+
 
 &lt;script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
 
 
 
+
+
+
+
 &lt;script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-
-```
-
-
 
 ![](/assets/table1.png)
 
-
-
 &gt; 构造方法
 
-
-
 ```
-
 方法一：
 
 var grid = new PlgButton\(opts\);
@@ -58,18 +72,13 @@ var grid = new PlgButton\(opts\);
 方法二：
 
 var grid = $\("div1"\).initPlgButton\(opts\);
-
 ```
-
-
 
 &gt; 配置
 
+\| 配置项 \| 说明 \|
 
-
-| 配置项 | 说明 |
-
-| :--- | :--- |
+\| :--- \| :--- \|
 
 \| skin \| 皮肤样式 \|
 
@@ -88,12 +97,4 @@ var grid = $\("div1"\).initPlgButton\(opts\);
 \| page \| 是否开启分页，默认true，分页参数默认为pageNum和pageSize \|
 
 \| totalCount \| 设定总页数字段，默认为“totalCount” \|
-
-
-
-
-
-
-
-
 
