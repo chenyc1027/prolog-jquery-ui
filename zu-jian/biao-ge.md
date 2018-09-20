@@ -80,6 +80,7 @@ var grid = $("div1").initPlgGrid(opts);
 | getElement\(\) | 获取组件dom节点 |
 | getGrid\(\) | 获取grid组件 |
 | getParams\(\) | 获取接口参数 |
+| getSelectedRowId\(\) | 获取选择行id |
 
 > 事件
 
