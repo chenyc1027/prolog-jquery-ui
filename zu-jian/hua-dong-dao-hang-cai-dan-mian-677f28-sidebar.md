@@ -8,7 +8,7 @@ PlgSidebar
 
 快速使用
 
-```HTML
+```js
    <link rel="stylesheet" type="text/css" href="../../../modules/dhtmlx/grid/codebase/dhtmlxgrid.css"/>
    <link rel="stylesheet" type="text/css" href="../../../modules/dhtmlx/grid/skins/web/dhtmlxgrid.css"/>
    <link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
@@ -54,4 +54,42 @@ PlgSidebar
 ```
 
 ![](/assets/001.jpg)
+
+构造方法
+
+```
+方法一：
+var Sidebar1= plgSidebar(
+        {
+            url:"data.json",
+            isTrigger:true,
+            menuClick:function (data) {
+                var mid=data.meneId
+                    ,othis=data.$this
+                    ,getData=data.data.mapAll;
+
+                var obj=getData[othis.attr("menu-id")];
+
+            }
+        }
+    ).renderTo("#app");
+
+方法二：
+var Sidebar2=$("#app").plgSidebar(
+        {
+            url:"data.json",
+            isTrigger:true,
+            menuClick:function (data) {
+                var mid=data.meneId
+                    ,othis=data.$this
+                    ,getData=data.data.mapAll;
+
+                var obj=getData[othis.attr("menu-id")];
+
+            }
+        }
+    );
+```
+
+
 
