@@ -58,7 +58,7 @@ var grid = new PlgButton\(opts\);
 
 方法二：
 
-var grid = $\("div1"\).initPlgGrid\(opts\);
+var grid = $\("div1"\).initPlgButton\(opts\);
 
 \`\`\`
 
@@ -89,52 +89,6 @@ var grid = $\("div1"\).initPlgGrid\(opts\);
 \| page \| 是否开启分页，默认true，分页参数默认为pageNum和pageSize \|
 
 \| totalCount \| 设定总页数字段，默认为“totalCount” \|
-
-
-
-&gt; 方法
-
-
-
-\| 方法 \| 说明 \|
-
-\| :--- \| :--- \|
-
-\| renderTo\\(id\\) \| 项目目标节点进行渲染 \|
-
-\| loadData\\(\\) \| 加载数据 \|
-
-\| reload\\(\\) \| 刷新数据 \|
-
-\| getElement\\(\\) \| 获取组件dom节点 \|
-
-\| getGrid\\(\\) \| 获取grid组件 \|
-
-\| getParams\\(\\) \| 获取接口参数 \|
-
-
-
-&gt; 事件
-
-
-
-\`\`\`
-
-使用：grid.on\("eventName",function\(e\){}\);
-
-\`\`\`
-
-
-
-\| 事件 \| 说明 \|
-
-\| :--- \| :--- \|
-
-\| onRowSelect\\(id,ind\\) \| 选择行事件。id - 选择行的id，ind - 列索引 \|
-
-\| onRightClick\\(id,ind,obj\\) \| 右键事件。id - 单击行id ，ind - 列索引，obj-事件对象 \|
-
-\| onHeaderClick\\(ind,obj\\) \| 表头单击事件。ind - 列索引，obj - 事件对象 \|
 
 
 
