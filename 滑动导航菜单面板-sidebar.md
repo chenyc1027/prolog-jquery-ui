@@ -62,12 +62,7 @@ var Sidebar1= plgSidebar(
  {
     url:"data.json",
     menuClick:function (data) {
-    var mid=data.meneId
-       ,othis=data.$this
-       ,getData=data.data.mapAll;
-    var obj=getData[othis.attr("menu-id")];
-    }
-
+      data.getCurrent// 获取点击当前数据对象 
  }).renderTo("#app");
 
 方法二：
@@ -77,11 +72,8 @@ var Sidebar2=$("#app").plgSidebar(
 
           url:"data.json",
           menuClick:function (data) {
-      var mid=data.meneId
-         ,othis=data.$this
-         ,getData=data.data.mapAll;
-
-       var obj=getData[othis.attr("menu-id")];
+             data.getCurrent// 获取点击当前数据对象 
+        
 
  }
 });
@@ -93,7 +85,7 @@ var Sidebar2=$("#app").plgSidebar(
 | 配置项 | 类型 | 说明 |
 | --- | --- | --- |
 | url | string | 数据接口 |
-| menClick | Function\(data\) | 点击二级或三级菜单的事件回调;回调参数 data.getCurrent |
+| menClick | Function\(data\) | 点击二级或三级菜单的事件回调;回调参数 data.getCurrent 获取点击当前数据对象 |
 
 > 方法
 
