@@ -13,5 +13,6 @@
   * [树形表格](zu-jian/shu-xing-biao-ge.md)
   * [弹出窗](zu-jian/dan-chu-chuang.md)
   * [消息窗](zu-jian/xiao-xi-chuang.md)
-  * 弹出菜单
+  * [弹出菜单](zu-jian/dan-chu-cai-dan.md)
+  * 按钮
 
