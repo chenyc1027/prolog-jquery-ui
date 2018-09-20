@@ -52,7 +52,7 @@ PlgButton
 
 方法一：
 
-var grid = new PlgGrid\(opts\);
+var grid = new PlgButton\(opts\);
 
 
 
