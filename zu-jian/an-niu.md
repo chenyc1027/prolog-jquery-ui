@@ -19,8 +19,6 @@ PlgButton
 
 > 构造方法
 
-
-
 ```
 方法一：
 var grid = new PlgButton(opts);
@@ -32,11 +30,9 @@ var grid = $("div1"\).initPlgButton(opts);
 
 > 配置
 
-
-
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
-| elem | 挂载点，是id，不需要写\`\` | elem |
+| elem | 挂载点，是id，不需要写\`\#\` | elem |
 | text | 标签里面的字，多个时候的时候，不需要使用空格\`\`代替 | \['测试一', '', '测试二'\] |
 | color | 可选参数【primary】【normal】【warm】【danger】【disabled】，默认为空 | \['normal', ''\] |
 | size | 可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
