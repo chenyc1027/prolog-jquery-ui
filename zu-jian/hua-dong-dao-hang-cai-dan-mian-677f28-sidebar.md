@@ -89,10 +89,20 @@ var Sidebar2=$("#app").plgSidebar(
     );
 ```
 
-配置
+
+
+> 配置
+
 
 | 配置项 | 类型 | 说明 |
 | --- | --- | --- |
 | url | string | 数据接口 |
 | menClick | Function\(data\) | 点击二级或三级菜单的事件回调;回调参数data:{meneId:string,$this:object,data:objec } |
+
+> 方法
+
+| 配置项 | 说明 |
+| --- | --- |
+
+
 
