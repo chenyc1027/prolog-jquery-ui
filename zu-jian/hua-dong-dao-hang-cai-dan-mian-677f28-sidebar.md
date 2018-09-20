@@ -94,5 +94,5 @@ var Sidebar2=$("#app").plgSidebar(
 | 配置项 | 类型 | 说明 |
 | --- | --- | --- |
 | url | string | 数据接口 |
-| menClick | Function | 点击二级或三级菜单的事件回调;function |
+| menClick | Function\(data\) | 点击二级或三级菜单的事件回调;回调参数data:{meneId:string,$this:object,data:objec } |
 
