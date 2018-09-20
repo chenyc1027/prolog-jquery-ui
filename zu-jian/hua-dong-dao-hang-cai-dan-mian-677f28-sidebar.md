@@ -57,7 +57,9 @@ PlgSidebar
 
 构造方法
 
-```
+```js
+
+
 方法一：
 var Sidebar1= plgSidebar(
         {
@@ -83,12 +85,13 @@ var Sidebar2=$("#app").plgSidebar(
                 var mid=data.meneId
                     ,othis=data.$this
                     ,getData=data.data.mapAll;
-
                 var obj=getData[othis.attr("menu-id")];
 
             }
         }
+    
     );
+
 ```
 
 
