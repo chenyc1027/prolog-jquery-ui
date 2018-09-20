@@ -69,8 +69,7 @@ var grid = $("div1").initPlgGrid(opts);
 | params | 数据接口提交参数 |
 | page | 是否开启分页，默认true，分页参数默认为pageNum和pageSize |
 | totalCount | 设定总页数字段，默认为“totalCount” |
-| filters | 头部过滤器，有如下类型：
-text_filter - text filter. Retrieves values which contain mask defined through text field. 
+| filters | 头部过滤器，有如下类型：#text_filter，
 select_filter - select filter. Retrieves values which contain mask defined through dropdown list of possible values. 
 combo_filter - filter based on the dhtmlxCombo component. Retrieves values which contain mask defined through combo box. 
 text_search - input box. Doesn't filter the grid but moves the selection to the nearest row containing the input text. 
