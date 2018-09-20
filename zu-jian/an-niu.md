@@ -2,99 +2,53 @@
 
 > 组件名称
 
-\\`\\`\\`
-
+```
 PlgButton
+```
+
+> 快速使用
 
 
 
-\\`\\`\\`
-
-
-
-
-
-
-
-&gt; 快速使用
-
-
-
-
-
-
-
-\\`\\`\\`js
-
-
-
-&lt;link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/&gt;
+```
+<link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
+<script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
+<script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
+```
 
 
 
 
 
-
-
-&lt;script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-
-
-
-&lt;script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-
-
-
-&lt;script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-
-
-
-&lt;script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-
-
-
-
-
-
-
-&lt;script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
-
-![](/assets/table1.png)
-
-&gt; 构造方法
+> 构造方法
 
 ```
 方法一：
 
-var grid = new PlgButton\(opts\);
+var grid = new PlgButton(opts);
 
 
 
 方法二：
 
-var grid = $\("div1"\).initPlgButton\(opts\);
+var grid = $("div1"\).initPlgButton(opts);
 ```
 
-&gt; 配置
+> 配置
 
-\| 配置项 \| 说明 \|
+| 属性 | 说明 | 示例 |
+| :--- | :--- | :--- |
+| elem | 挂载点，是id，不需要写\`\` | elem |
+| text | 标签里面的字，多个时候的时候，不需要使用空格\`\`代替 | \['测试一', '', '测试二'\] |
+| color | 可选参数【primary】【normal】【warm】【danger】【disabled】 | \['normal', ''\] |
+| size | 可选参数【big】【small】【mini】【danger】 | 同上 |
+| isRadius | 【true-代表有圆角】，【false-没有圆角】 | 同上 |
+| isGroup | 【true-是标签组】，【false不是】 | isGroup: true |
+| disabled | 是否禁用：【true--禁用】【false--不禁用】 | 同上 |
+| isIconBtn | 可选参数【add】【del】【edit】【right】，默认为空 |  |
 
-\| :--- \| :--- \|
 
-\| skin \| 皮肤样式 \|
-
-\| renderer \| 渲染节点 \|
-
-\| columns \| 数据列名称，“,”分隔的字符串，如“id,number,name” \|
-
-\| headers \| 表头，“,”分隔的字符串，如：“id,编号,名称” \|
-
-\| multiselect \| 是否支持多选，默认false \|
-
-\| url \| 数据接口 \|
-
-\| params \| 数据接口提交参数 \|
-
-\| page \| 是否开启分页，默认true，分页参数默认为pageNum和pageSize \|
-
-\| totalCount \| 设定总页数字段，默认为“totalCount” \|
 
