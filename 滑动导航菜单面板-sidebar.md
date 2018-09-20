@@ -73,26 +73,18 @@ var Sidebar1= plgSidebar(
 方法二：
 
 var Sidebar2=$("#app").plgSidebar(
-
  {
 
- url:"data.json",
+          url:"data.json",
+          menuClick:function (data) {
+      var mid=data.meneId
+         ,othis=data.$this
+         ,getData=data.data.mapAll;
 
- menuClick:function (data) {
-
- var mid=data.meneId
-
- ,othis=data.$this
-
- ,getData=data.data.mapAll;
-
- var obj=getData[othis.attr("menu-id")];
+       var obj=getData[othis.attr("menu-id")];
 
  }
-
- }
-
- );
+});
 
 ```
 
