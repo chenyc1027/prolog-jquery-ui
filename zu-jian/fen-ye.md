@@ -1,11 +1,11 @@
-### 按钮组件
+### 分页组件
 
 > ```
 > 组件名称
 > ```
 
 ```
-PlgButton
+PlgPage
 ```
 
 > 快速使用
@@ -16,16 +16,16 @@ PlgButton
 <script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"></script>
 <script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"></script>
 <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
-<script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
+<script src="../codebase/PlgPage.js" type="text/javascript" charset="utf-8"></script>
 ```
 
 > 构造方法
 
 ```
 方法一：
-var grid = new PlgButton(opts);
+var grid = new PlgPage(opts);
 方法二：
-var grid = $("div1"\).initPlgButton(opts);
+var grid = $("div1"\).initPlgPage(opts);
 ```
 
 ![](/assets/plgbtn.png)
