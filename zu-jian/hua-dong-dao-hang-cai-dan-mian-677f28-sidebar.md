@@ -94,7 +94,7 @@ var Sidebar2=$("#app").plgSidebar(
 | 配置项 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | url | string | 数据接口 |
-| menClick | Function |  |
+| menClick | Function | 点 |
 
 
 
