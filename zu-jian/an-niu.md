@@ -1,12 +1,11 @@
-\#\#\# 按钮组件
+### 按钮组件
+
+
+> 组件名称
 
 
 
-&gt; 组件名称
-
-
-
-\`\`\`
+```
 
 PlgButton
 
@@ -36,11 +35,11 @@ PlgButton
 
 &lt;script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"&gt;&lt;/script&gt;
 
-\`\`\`
+```
 
 
 
-!\[\]\(/assets/table1.png\)
+![](/assets/table1.png)
 
 
 
@@ -48,7 +47,7 @@ PlgButton
 
 
 
-\`\`\`
+```
 
 方法一：
 
@@ -60,7 +59,7 @@ var grid = new PlgButton\(opts\);
 
 var grid = $\("div1"\).initPlgButton\(opts\);
 
-\`\`\`
+```
 
 
 
@@ -68,9 +67,9 @@ var grid = $\("div1"\).initPlgButton\(opts\);
 
 
 
-\| 配置项 \| 说明 \|
+| 配置项 | 说明 |
 
-\| :--- \| :--- \|
+| :--- | :--- |
 
 \| skin \| 皮肤样式 \|
 
