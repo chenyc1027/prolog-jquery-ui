@@ -84,6 +84,7 @@ var grid = $("div1").initPlgGrid(opts);
 | getSelectedCellIndex\(\) | 获取选择单元格索引，值为-1时，表示为选择 |
 | getRowId\(rowIndex\) | 根据行索引（从0开始）获取row id |
 | getRowIndex\(rowId\) | 根据row id获取行索引 |
+| getCellObject\(rowId,colIndex\) | 获取单元格对象 |
 
 > 事件
 
