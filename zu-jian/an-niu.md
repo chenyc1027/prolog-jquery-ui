@@ -19,19 +19,20 @@ PlgButton
 
 > 构造方法
 
+
+
 ```
 方法一：
-
 var grid = new PlgButton(opts);
-
-
-
 方法二：
-
 var grid = $("div1"\).initPlgButton(opts);
 ```
 
+![](/assets/plgbtn.png)
+
 > 配置
+
+
 
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
