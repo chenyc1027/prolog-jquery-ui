@@ -59,26 +59,16 @@ PlgSidebar
 方法一：
 
 var Sidebar1= plgSidebar(
-
  {
+    url:"data.json",
+    menuClick:function (data) {
+    var mid=data.meneId
+       ,othis=data.$this
+       ,getData=data.data.mapAll;
+    var obj=getData[othis.attr("menu-id")];
+    }
 
- url:"data.json",
-
- menuClick:function (data) {
-
- var mid=data.meneId
-
- ,othis=data.$this
-
- ,getData=data.data.mapAll;
-
- var obj=getData[othis.attr("menu-id")];
-
- }
-
- }
-
- ).renderTo("#app");
+ }).renderTo("#app");
 
 方法二：
 
