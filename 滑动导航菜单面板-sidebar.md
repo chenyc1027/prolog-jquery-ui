@@ -30,7 +30,6 @@ PlgSidebar
  var Sidebar= plgSidebar(
 
  {
-
  url:"data.json",
  isTrigger:true,
  menuClick:function (data) {
