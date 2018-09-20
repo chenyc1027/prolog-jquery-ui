@@ -88,7 +88,7 @@ var grid = $("div1").initPlgGrid(opts);
 | getCellVaule\(rowId,colIndex\) | 获取单元格值 |
 | getCellObject2\(rowIndex,colIndex\) | 获取单元格对象 |
 | getCellVaule2\(rowIndex,colIndex\) | 获取单元格值 |
-
+|getColumnsNum\() | 获取纵列数，包括隐藏列
 
 
 > 事件
