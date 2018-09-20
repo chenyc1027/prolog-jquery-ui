@@ -1,8 +1,6 @@
 ### 分页组件
 
-> ```
 > 组件名称
-> ```
 
 ```
 PlgPage
@@ -21,27 +19,29 @@ PlgPage
 
 > 构造方法
 
-```
 方法一：
+
+```
 var grid = new PlgPage(opts);
-方法二：
-var grid = $("div1"\).initPlgPage(opts);
 ```
 
-![](/assets/plgbtn.png)
+方法二：
+
+var grid = $\("div1"\).initPlgPage\(opts\);
+
+ 
+
+![](/assets/fenye.png)
+
+
 
 > 配置
 
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
 | elem | 挂载点，是id，不需要写\`\#\` | elem |
-| text | 标签里面的字，多个时候的时候，不需要使用空格\`\`代替 | \['测试一', '', '测试二'\] |
-| color | 可选参数【primary】【normal】【warm】【danger】【disabled】，默认为空 | \['normal', ''\] |
-| size | 可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
-| isRadius | 【true-代表有圆角】，【false-没有圆角】 | 同上 |
-| isGroup | 【true-是标签组】，【false不是】 | isGroup: true |
-| disabled | 是否禁用：【true--禁用】【false--不禁用】 | 同上 |
-| isIconBtn | 可选参数【add】【del】【edit】【right】，默认为空 | 同上 |
+| count | 总的数据记录条数 | count: 50 |
+| click | 获取用户当前点击的分页按钮的页码，是一个函数用来回掉的 | function getCurrPage\(params\){console.log\('params::' +params\)} |
 
 
 
