@@ -22,35 +22,37 @@ PlgSidebar
   <body>
 
     <!--PlgSidebar组件css\js-->
-    
+
     <link rel="stylesheet" type="text/css" href="../codebase/PlgSidebar.css"/>
     <script src="../codebase/PlgSidebar.js" type="text/javascript" charset="utf-8"></script>
-    
-    
+
+
     <div id="app"></div>
-    
-    
-        var Sidebar= plgSidebar(
-        {
-            url:"data.json",
-            isTrigger:true,
-            menuClick:function (data) {
-                var mid=data.meneId
-                    ,othis=data.$this
-                    ,getData=data.data.mapAll;
 
-                var obj=getData[othis.attr("menu-id")];
+    <script type="text/javascript">
+                var Sidebar= plgSidebar(
+                {
+                    url:"data.json",
+                    isTrigger:true,
+                    menuClick:function (data) {
+                        var mid=data.meneId
+                            ,othis=data.$this
+                            ,getData=data.data.mapAll;
+        
+                        var obj=getData[othis.attr("menu-id")];
+        
+                    }
+                }
+            ).renderTo("#app");
+            
+    </script>        
+        
 
-            }
-        }
-    ).renderTo("#app");
 
-  
-  
-  
-  
-  
-  
+
+
+
+
   </body>
 ```
 
