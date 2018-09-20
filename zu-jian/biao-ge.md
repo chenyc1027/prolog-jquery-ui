@@ -69,6 +69,7 @@ var grid = $("div1").initPlgGrid(opts);
 | params | 数据接口提交参数 |
 | page | 是否开启分页，默认true，分页参数默认为pageNum和pageSize |
 | totalCount | 设定总页数字段，默认为“totalCount” |
+| filters | 头部过滤器，有如下类型：|
 
 > 方法
 
