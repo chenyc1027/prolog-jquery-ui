@@ -81,6 +81,7 @@ var grid = $("div1").initPlgGrid(opts);
 | getGrid\(\) | 获取grid组件 |
 | getParams\(\) | 获取接口参数 |
 | getSelectedRowId\(\) | 获取选择行id |
+| getSelectedCellIndex | 获取选择单元格索引 |
 
 > 事件
 
