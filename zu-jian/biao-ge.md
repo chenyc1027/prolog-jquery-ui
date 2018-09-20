@@ -85,6 +85,11 @@ var grid = $("div1").initPlgGrid(opts);
 | getRowId\(rowIndex\) | 根据行索引（从0开始）获取row id |
 | getRowIndex\(rowId\) | 根据row id获取行索引 |
 | getCellObject\(rowId,colIndex\) | 获取单元格对象 |
+| getCellVaule\(rowId,colIndex\) | 获取单元格值 |
+| getCellObject2\(rowIndex,colIndex\) | 获取单元格对象 |
+| getCellVaule2\(rowIndex,colIndex\) | 获取单元格值 |
+
+
 
 > 事件
 
