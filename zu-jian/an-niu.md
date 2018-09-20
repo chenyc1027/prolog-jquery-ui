@@ -8,8 +8,6 @@ PlgButton
 
 > 快速使用
 
-
-
 ```
 <link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
 <script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
@@ -18,10 +16,6 @@ PlgButton
 <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
 <script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
 ```
-
-
-
-
 
 > 构造方法
 
@@ -48,7 +42,7 @@ var grid = $("div1"\).initPlgButton(opts);
 | isRadius | 【true-代表有圆角】，【false-没有圆角】 | 同上 |
 | isGroup | 【true-是标签组】，【false不是】 | isGroup: true |
 | disabled | 是否禁用：【true--禁用】【false--不禁用】 | 同上 |
-| isIconBtn | 可选参数【add】【del】【edit】【right】，默认为空 |  |
+| isIconBtn | 可选参数【add】【del】【edit】【right】，默认为空 | 同上 |
 
 
 
