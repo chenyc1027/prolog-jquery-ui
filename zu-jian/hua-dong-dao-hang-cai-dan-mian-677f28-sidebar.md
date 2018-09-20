@@ -38,15 +38,15 @@ PlgSidebar
                         var mid=data.meneId
                             ,othis=data.$this
                             ,getData=data.data.mapAll;
-        
+
                         var obj=getData[othis.attr("menu-id")];
-        
+
                     }
                 }
             ).renderTo("#app");
-            
+
     </script>        
-        
+
 
 
 
