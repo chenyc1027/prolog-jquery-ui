@@ -103,7 +103,7 @@ var Sidebar2=$("#app").plgSidebar(
 
 | 方法 | 说明 |
 | --- | --- |
-|renderTo("#id \|\|.calss")|  |渲染节点挂载
+|renderTo("#id \|\|.calss")|渲染节点挂载
 
 
 
