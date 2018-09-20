@@ -37,8 +37,8 @@ var grid = $("div1"\).initPlgButton(opts);
 | :--- | :--- | :--- |
 | elem | 挂载点，是id，不需要写\`\` | elem |
 | text | 标签里面的字，多个时候的时候，不需要使用空格\`\`代替 | \['测试一', '', '测试二'\] |
-| color | 可选参数【primary】【normal】【warm】【danger】【disabled】 | \['normal', ''\] |
-| size | 可选参数【big】【small】【mini】【danger】 | 同上 |
+| color | 可选参数【primary】【normal】【warm】【danger】【disabled】，默认为空 | \['normal', ''\] |
+| size | 可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
 | isRadius | 【true-代表有圆角】，【false-没有圆角】 | 同上 |
 | isGroup | 【true-是标签组】，【false不是】 | isGroup: true |
 | disabled | 是否禁用：【true--禁用】【false--不禁用】 | 同上 |
