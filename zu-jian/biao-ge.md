@@ -25,29 +25,27 @@ PlgGrid
 
 layui.use(['laypage'], function(){
    var opts = {
-			   		skin:"terrace",
-			   		//renderer:"grid",
-			   		columns:[
-			   			{id:"id",name:"id",type:'txt',width:200,hidden:true},
-			   			{id:"platformId",name:"平台",type:'ro',render:function(v){if(v=='test001') return '测试平台1';}},
-			   			{id:"enable",name:"是否可用",type:'ch'},
-			   			{id:"createTime",name:"创建时间",type:'ro'},
-			   			{id:"creatorId",name:"创建人",type:'ro'}
-			   			],
-			   		multiselect:false,
-			   		url:"data.json",//数据接口
-			   		type:"get",//数据提交方式，默认为get
-					params:{},//查询提交参数，分页参数默认为pageNum,pageSize
-					page:true, //是否启用分页
-					totalCount:"totalCount" //总记录数字段，默认totalCount
-			　　	};
-				//分页参数 pageSize pageNum
-				console.log(opts);
-				var grid = new PlgGrid(opts);	
-				grid.renderTo("grid");
-				grid.loadData();
-				
-
+	skin:"terrace",
+	//renderer:"grid",
+	columns:[
+		{id:"id",name:"id",type:'txt',width:200,hidden:true},
+		{id:"platformId",name:"平台",type:'ro',render:function(v){if(v=='test001') return '测试平台1';}},
+		{id:"enable",name:"是否可用",type:'ch'},
+		{id:"createTime",name:"创建时间",type:'ro'},
+		{id:"creatorId",name:"创建人",type:'ro'}
+		],
+	multiselect:false,
+	url:"data.json",//数据接口
+	type:"get",//数据提交方式，默认为get
+	params:{},//查询提交参数，分页参数默认为pageNum,pageSize
+	page:true, //是否启用分页
+	totalCount:"totalCount" //总记录数字段，默认totalCount
+　　};
+	//分页参数 pageSize pageNum
+	console.log(opts);
+	var grid = new PlgGrid(opts);	
+	grid.renderTo("grid");
+	grid.loadData();
 })
 ```
 
