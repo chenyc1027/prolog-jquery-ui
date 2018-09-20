@@ -89,7 +89,7 @@ var grid = $("div1").initPlgGrid(opts);
 | getCellObject2\(rowIndex,colIndex\) | 获取单元格对象 |
 | getCellVaule2\(rowIndex,colIndex\) | 获取单元格值 |
 |getColumnsNum\() | 获取纵列数，包括隐藏列 |
-|setColWidth\(colIndex,width) | 设置宽度 |
+|setColWidth\(colIndex,width) | 设置指定列的宽度 |
 
 > 事件
 
