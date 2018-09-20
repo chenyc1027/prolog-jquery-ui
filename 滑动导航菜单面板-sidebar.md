@@ -93,7 +93,7 @@ var Sidebar2=$("#app").plgSidebar(
 | 配置项 | 类型 | 说明 |
 | --- | --- | --- |
 | url | string | 数据接口 |
-| menClick | Function\(data\) | 点击二级或三级菜单的事件回调;回调参数 getCurrent |
+| menClick | Function\(data\) | 点击二级或三级菜单的事件回调;回调参数 data.getCurrent |
 
 > 方法
 
