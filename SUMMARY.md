@@ -3,6 +3,7 @@
 * [简介](README.md)
 * [组件](zu-jian.md)
   * [按钮](zu-jian/an-niu.md)
+
   * [选项卡](zu-jian/xuan-xiang-qia.md)
   * [表格](zu-jian/biao-ge.md)
   * [表单](zu-jian/biao-dan.md)
@@ -14,6 +15,9 @@
   * [弹出窗](zu-jian/dan-chu-chuang.md)
   * [消息窗](zu-jian/xiao-xi-chuang.md)
   * [弹出菜单](zu-jian/dan-chu-cai-dan.md)
+  * 分页
+
+
   * # 按钮
   * [滑动导航菜单面板-Sidebar](zu-jian/hua-dong-dao-hang-cai-dan-mian-677f28-sidebar.md)
 
