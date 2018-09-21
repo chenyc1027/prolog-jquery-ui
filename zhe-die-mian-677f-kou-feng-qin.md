@@ -30,10 +30,16 @@ var grid = $("div1").initPlgCollapse(opts);
 
 > 折叠面板
 
-![](/assets/collapse.png)  
-
+![](/assets/collapse.png)
 
 > 口风琴
+
+![](/assets/accordion.png)
+
+| 属性 | 说明 | 示列 |
+| :--- | :--- | :--- |
+|  |  |  |
+|  |  |  |
 
 
 
