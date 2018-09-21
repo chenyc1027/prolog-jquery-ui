@@ -29,11 +29,7 @@ var grid = new PlgPage(opts);
 
 var grid = $\("div1"\).initPlgPage\(opts\);
 
- 
-
 ![](/assets/fenye.png)
-
-
 
 > 配置
 
