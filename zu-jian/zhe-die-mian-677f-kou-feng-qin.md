@@ -39,11 +39,9 @@ var grid = $("div1").initPlgCollapse(opts);
 | elem | 挂载点,id，不需要写\# | test |
 | model | 模式 【accordion  -- 手风情模式】【codebase--折叠面板模式】，默认是【codebase--折叠面板模式】 |  |
 | items | 用户数据体 |  |
-| items[title] | 面板的头部，主要是展示部分 |  |
-| items[content] | 面板的主体，主要是现实内容的部分 |  |
-| items[show] | 面板的默认状态【show--展示】【false--隐藏，默认样式】 |  |
-|  |  |  |
-|  |  |  |
+| items\[title\] | 面板的头部，主要是展示部分 |  |
+| items\[content\] | 面板的主体，主要是现实内容的部分 |  |
+| items\[show\] | 面板的默认状态【show--展示】【false--隐藏，默认样式】 |  |
 
 
 
