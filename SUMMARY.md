@@ -16,6 +16,7 @@
   * [弹出菜单](zu-jian/dan-chu-cai-dan.md)
   * [分页](zu-jian/fen-ye.md)
   * 按钮
+  * [折叠面板/口风琴](zhe-die-mian-677f-kou-feng-qin.md)
+  * [滑动导航菜单面板-Sidebar](zu-jian/hua-dong-dao-hang-cai-dan-mian-677f28-sidebar.md)
   * [DEMO](zu-jian/demo.md)
-* [滑动导航菜单面板-Sidebar](zu-jian/hua-dong-dao-hang-cai-dan-mian-677f28-sidebar.md)
 
