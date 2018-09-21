@@ -37,10 +37,14 @@ var grid = $("div1").initPlgButton(opts);
 | elem | 挂载点，是id，不需要写\`\#\` | elem |
 | type | 设置全局的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】      | 设置全局按钮的颜色 |
 | size | 设置全局的size可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
-| isRadius | 【true-代表有圆角】，【false-没有圆角】   | 同上 |
-| isGroup | 【true-是标签组】，【false不是】 | isGroup: true |
-| disabled | 是否禁用：【true--禁用】【false--不禁用】 | 同上 |
-| isIconBtn | 可选参数【add】【del】【edit】【right】，默认为空 | 同上 |
+| items | 设置按钮的局部参数 |  |
+| items[type] | 设置局部的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】 | isGroup: true |
+| items[size] | 设置局部的size可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
+| items[text] | 设置局部的值，主要用来 | 同上 |
+| items[class] | 用户自定义class名称 | 同上 |
+| items[soltPos] | 预留用户使用的插槽，主要是在按钮里面文本的before和after的两个地方插入指定的模版【before】【after】 | 同上 |
+| items[tpl] | 用户自定义的模版 | 同上 |
+
 
 > 事件
 
