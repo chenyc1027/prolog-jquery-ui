@@ -2,7 +2,6 @@
 
 > 组件名称
 
-
 ```
 PlgCollapse
 ```
@@ -37,8 +36,14 @@ var grid = $("div1").initPlgCollapse(opts);
 
 | 属性 | 说明 | 示列 |
 | :--- | :--- | :--- |
-| elem | 挂载点,id，不需要写# | test |
+| elem | 挂载点,id，不需要写\# | test |
 | model | 模式 【accordion  -- 手风情模式】【codebase--折叠面板模式】，默认是【codebase--折叠面板模式】 |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 
 
