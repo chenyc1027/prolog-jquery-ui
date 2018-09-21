@@ -49,7 +49,7 @@ var grid = $("div1").initPlgButton(opts);
 
 | 名称 | 方法 | 描述 | 回参 |
 | :--- | :--- | :--- | :--- |
-| on 方法 | on\('click', callback\(ind\)\) | 用户点击按钮后返回当前的index值，目前 | 返回的是当前button的index的值 |
+| on 方法 | on\('click', callback\(ind\)\) | 用户点击按钮后返回当前的index值，目前只支持click事件 | 返回的是当前button的index的值 |
 
 
 
