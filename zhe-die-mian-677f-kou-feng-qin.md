@@ -23,9 +23,9 @@ PlgCollapse
 
 ```
 方法一：
-var grid = new PlgButton(opts);
+var grid = new PlgCollapse(opts);
 方法二：
-var grid = $("div1").initPlgButton(opts);
+var grid = $("div1").initPlgCollapse(opts);
 ```
 
 ![](/assets/plgbtn.png)
