@@ -28,5 +28,12 @@ var grid = new PlgCollapse(opts);
 var grid = $("div1").initPlgCollapse(opts);
 ```
 
-![](/assets/plgbtn.png)
+> 折叠面板
+
+![](/assets/collapse.png)  
+
+
+> 口风琴
+
+
 
