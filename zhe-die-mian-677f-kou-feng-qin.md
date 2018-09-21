@@ -5,7 +5,7 @@
 > ```
 
 ```
-PlgButton
+PlgCollapse
 ```
 
 > 快速使用
@@ -16,7 +16,7 @@ PlgButton
 <script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"></script>
 <script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"></script>
 <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
-<script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
+<script src="../codebase/PlgCollapse.js" type="text/javascript" charset="utf-8"></script>
 ```
 
 > 构造方法
