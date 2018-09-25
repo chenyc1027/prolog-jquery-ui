@@ -66,18 +66,14 @@ var grid = new PlgNav(opts);
 
 var grid = $\("div1"\).initPlgNav\(opts\);
 
-
-
 > 配置
 
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
 | elem | 挂载点，是id，不需要写\`\#\` | elem |
+|  |  |  |
 | data | nav的菜单\(数组格式\) | 目前仅仅支持2级的深度 |
 | click | 获取用户当前点击的分页按钮的页码，是一个函数用来回掉的 | function getCurrPage\(params\){console.log\('params::' +params\)} |
 
-
-
-  
 
 
