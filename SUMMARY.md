@@ -21,4 +21,5 @@
   * [DEMO](zu-jian/demo.md)
   * [导航](dao-hang-nav.md)
   * [面包屑导航](mian-bao-xie-dao-hang.md)
+* [富文本编辑器](fu-wen-ben-bian-ji-qi.md)
 
