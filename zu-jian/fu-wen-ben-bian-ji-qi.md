@@ -1,2 +1,57 @@
-富文本编辑器
+富文本编辑器组件
 
+> 组件名称
+
+```
+PlgEdit
+```
+
+> 快速使用
+
+```
+<link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
+<script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
+<script src="../codebase/PlgEdit.js" type="text/javascript" charset="utf-8"></script>
+```
+
+> 构造方法
+
+方法一：
+
+```
+var grid = new PlgEdit(opts);
+```
+
+方法二：
+
+var grid = $("div1").initPlgEdit(opts);
+
+![img](blob:file:///0289f1e0-5bea-4a8a-93bc-9dd04e82cca3)
+
+> 配置
+
+| 属性               | 说明                                                         | 示例                         |
+| ------------------ | ------------------------------------------------------------ | ---------------------------- |
+| elem               | 挂载点，是id，不需要写`#`                                    | elem                         |
+| height             | 文本框的高度，正整数，单位是px                               | height: 50                   |
+| tool               | 文本框菜单栏显示的功能，主要有【·strong`-- 加粗】【`italic`-- 斜体】【 `underline`-- 下划线】【 `del` -- 删除线】【`|` -- 分割线】【`left`--左对齐】【`center` --居中对齐】【`right`--右对齐】【`link`--超链接】【`unlink`--清除链接】【`face`-- 表情】【`image`--插入图片】 【`help`-- 帮助】 | 是一个数组，默认这些都会显示 |
+| hideTool           | 参数同上，主要是在惨淡中不显示传入的参数                     |                              |
+| uploadImage        | 上传图片的API                                                |                              |
+| uploadImage[url]   | 上传图片的地址                                               |                              |
+| uploadImages[type] | 默认是post                                                   |                              |
+
+### Tips 对上传图片返回的参数有要求
+
+```
+ {
+        "code": 0 //0表示成功，其它失败
+        ,"msg": "" //提示信息 //一般上传失败后返回
+        ,"data": {
+            "src": "图片路径"
+            ,"title": "图片名称" //可选
+        }
+    }
+```
