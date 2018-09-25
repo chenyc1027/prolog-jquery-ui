@@ -29,7 +29,7 @@ var grid = new PlgEdit(opts);
 
 var grid = $\("div1"\).initPlgEdit\(opts\);
 
-![](/assets/fenye.png)
+![](/assets/edit.png)
 
 > 配置
 
