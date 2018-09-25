@@ -20,4 +20,5 @@
   * [滑动导航菜单面板-Sidebar](zu-jian/hua-dong-dao-hang-cai-dan-mian-677f28-sidebar.md)
   * [DEMO](zu-jian/demo.md)
   * [导航](dao-hang-nav.md)
+  * [面包屑导航](mian-bao-xie-dao-hang.md)
 
