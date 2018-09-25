@@ -49,9 +49,7 @@ script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"
 <
 script src="../codebase/PlgNav.js" type="text/javascript" charset="utf-8"
 >
-<
-/script
->
+</script>
 ```
 
 > 构造方法
