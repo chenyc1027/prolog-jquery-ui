@@ -43,8 +43,6 @@ var grid = $\("div1"\).initPlgEdit\(opts\);
 | uploadImage\[url\] | 上传图片的地址 |  |
 | uploadImages\[type\] | 默认是post |  |
 
-
-
 ### Tips 对上传图片返回的参数有要求
 
 ```
