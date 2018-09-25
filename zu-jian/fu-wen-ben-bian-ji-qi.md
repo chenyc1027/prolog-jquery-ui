@@ -29,7 +29,7 @@ var grid = new PlgEdit(opts);
 
 var grid = $("div1").initPlgEdit(opts);
 
-![img](blob:file:///0289f1e0-5bea-4a8a-93bc-9dd04e82cca3)
+![img](/assets/edit.png)
 
 > 配置
 
