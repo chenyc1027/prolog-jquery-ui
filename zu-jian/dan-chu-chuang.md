@@ -126,11 +126,13 @@ PlgDialog
     </script>
     
 ```
+
+
 > 内置方法
 
 |名称 | 说明 |
 | :--- | :--- |
-| layer.ready(callback) 初始化就绪 | 皮肤样式 |
+| layer.ready(callback) 初始化就绪 | |
 
 
 
