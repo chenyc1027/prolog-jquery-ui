@@ -11,7 +11,7 @@
   * [进度条](zu-jian/jin-du-tiao.md)
   * [树形结构](zu-jian/shu-xing-jie-gou.md)
   * [树形表格](zu-jian/shu-xing-biao-ge.md)
-  * [弹出窗](zu-jian/dan-chu-chuang.md)
+  * [弹出窗-dialog](zu-jian/dan-chu-chuang.md)
   * [消息窗](zu-jian/xiao-xi-chuang.md)
   * [弹出菜单](zu-jian/dan-chu-cai-dan.md)
   * [分页](zu-jian/fen-ye.md)
