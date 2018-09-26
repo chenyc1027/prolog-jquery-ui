@@ -128,6 +128,14 @@ PlgDialog
 ```
 
 ## layer.ready\(callback\) - 初始化就绪
+```js
+//页面一打开就执行弹层
+layer.ready(function(){
+  layer.msg('很高兴一开场就见到你');
+});      
+        
+```
+
 
 | 名称 | 说明 |
 | :--- | :--- |
