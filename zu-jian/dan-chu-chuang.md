@@ -24,14 +24,12 @@ PlgDialog
     
     <body>
        <div style ="padding: 20px">
-
-
-    <button id="dom_01" class="layui-btn">询问框</button>
-    <button id="dom_02" class="layui-btn">提示消息层</button>
-    <button id="dom_03" class="layui-btn">自定页</button>
-    <button id="dom_04" class="layui-btn">tab页</button>
-    <button id="dom_05" class="layui-btn">loadn层</button>
-    <button id="dom_06" class="layui-btn">tips</button>
+          <button id="dom_01" class="layui-btn">询问框</button>
+          <button id="dom_02" class="layui-btn">提示消息层</button>
+          <button id="dom_03" class="layui-btn">自定页</button>
+          <button id="dom_04" class="layui-btn">tab页</button>
+          <button id="dom_05" class="layui-btn">loadn层</button>
+          <button id="dom_06" class="layui-btn">tips</button>
 </div>
     
     </body>
