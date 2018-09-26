@@ -5,6 +5,7 @@
 ```
 PlgDialog
 ```
+
 > 快速使用
 
 ```js
@@ -21,7 +22,7 @@ PlgDialog
 
     <!--PlgDialog组件 JS-->
     <script src="../codebase/plgDialog.js" type="text/javascript" charset="utf-8"></script>
-    
+
     <body>
        <div style ="padding: 20px">
           <button id="dom_01" class="layui-btn">询问框</button>
@@ -31,7 +32,7 @@ PlgDialog
           <button id="dom_05" class="layui-btn">loadn层</button>
           <button id="dom_06" class="layui-btn">tips</button>
         </div>
-    
+
     </body>
       <script type="text/javascript">
 
@@ -124,29 +125,16 @@ PlgDialog
         }
       //提示层
     </script>
-    
 ```
 
+## layer.ready\(callback\) - 初始化就绪
 
-> layer.ready(callback) - 初始化就绪
-
-|名称 | 说明 |
+| 名称 | 说明 |
 | :--- | :--- |
-| layer.ready(callback) 初始化就绪
- | |
-
-
-
-
-
-
-
-
-
-
-
-
-
+| layer.ready\(callback\) 初始化就绪 |  |
+|  |  |
+|  |  |
+|  |  |
 
 
 
