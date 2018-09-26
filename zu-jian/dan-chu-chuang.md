@@ -1,12 +1,12 @@
 ### 弹出框
 
-组件名称
+>组件名称
 
 ```
 PlgDialog
 ```
 
-快速使用
+>快速使用
 
 ```js
     <link rel="stylesheet" type="text/css" href="../../../modules/dhtmlx/grid/codebase/dhtmlxgrid.css" />
@@ -176,6 +176,41 @@ PlgDialog
           plgDialog.close(index);
         });     
 ```
+
+##plgDialog.confirm(content, options, yes, cancel) - 询问框
+类似系统confirm，但却远胜confirm，另外它不是和系统的confirm一样阻塞你需要把交互的语句放在回调体中。同样的，它的参数也是自动补齐的。
+```js
+        //eg1
+        plgDialog.confirm('is not?', {icon: 3, title:'提示'}, function(index){
+          //do something
+          
+          plgDialog.close(index);
+        });
+        //eg2
+        plgDialog.confirm('is not?', function(index){
+          //do something
+          
+          plgDialog.close(index);
+        });
+```
+##layer.load(icon, options) - 加载层
+load并不需要你传太多的参数，但如果你不喜欢默认的加载风格，你还有选择空间。icon支持传入0-2如果是0，无需传。另外特别注意一点：load默认是不会自动关闭的，因为你一般会在ajax回调体中关闭它。
+```js
+        //eg1
+        var index = layer.load();
+        //eg2
+        var index = layer.load(1); //换了种风格
+        //eg3
+        var index = layer.load(2, {time: 10*1000}); //又换了种风格，并且设定最长等待10秒 
+        //关闭
+        layer.close(index);     
+        
+
+```
+
+
+
+
 
 
 
