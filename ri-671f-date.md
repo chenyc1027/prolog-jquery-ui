@@ -90,8 +90,10 @@ PlgDate
 
 ># 基本参数
 ##elem - 绑定元素
+
 类型：String/DOM，默认值：无
 必填项，用于绑定执行日期渲染的元素，值一般为选择器，或DOM对象
+
 ```js
         plgDate.render({ 
         elem: '#test' //或 elem: document.getElementById('test')、elem: $('#test') 等
