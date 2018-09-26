@@ -166,14 +166,14 @@ PlgDialog
 它的弹出似乎显得有些高调，一般用于对用户造成比较强烈的关注，类似系统alert，但却比alert更灵便。它的参数是自动向左补齐的。通过第二个参数，可以设定各种你所需要的基础参数，但如果你不需要的话，直接写回调即可。如
 ```js
          //eg1
-        layer.alert('只想简单的提示');        
+        plgDialog.alert('只想简单的提示');        
         //eg2
-        layer.alert('加了个图标', {icon: 1}); //这时如果你也还想执行yes回调，可以放在第三个参数中。
+        plgDialog.alert('加了个图标', {icon: 1}); //这时如果你也还想执行yes回调，可以放在第三个参数中。
         //eg3
-        layer.alert('有了回调', function(index){
+        plgDialog.alert('有了回调', function(index){
           //do something
           
-          layer.close(index);
+          plgDialog.close(index);
         });     
 ```
 
