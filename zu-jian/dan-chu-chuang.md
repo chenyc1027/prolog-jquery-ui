@@ -115,14 +115,11 @@ PlgDialog
 
         //loading加载
         document.querySelector("#dom_05").onclick = function () {
-
             plgDialog.loading(); //0代表加载的风格，支持0-2
             //1秒后自动关闭加载层
             setTimeout(function () {
                 plgDialog.closeAll("loading")
             }, 1000)
-
-
         }   
         //tips提示
         document.querySelector("#dom_06").onclick = function () {
