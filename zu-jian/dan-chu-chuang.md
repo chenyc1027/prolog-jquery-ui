@@ -25,7 +25,7 @@ PlgDialog
     <body>
        <div style ="padding: 20px">
           <button id="dom_01" class="layui-btn">询问框</button>
-          <button id="dom_02" class="layui-btn">提示消息层</button>
+          <button id="dom_02" class="layui-btn">消息层</button>
           <button id="dom_03" class="layui-btn">自定页</button>
           <button id="dom_04" class="layui-btn">tab页</button>
           <button id="dom_05" class="layui-btn">loadn层</button>
@@ -34,8 +34,6 @@ PlgDialog
     
     </body>
       <script type="text/javascript">
-
-        var layer = layui.layer;
 
         //询问框
         document.querySelector("#dom_01").onclick = function () {
@@ -51,9 +49,9 @@ PlgDialog
 
         }
 
-        //提示层
+        //消息层
         document.querySelector("#dom_02").onclick = function () {
-            plgDialog.msg('玩命提示中');
+            plgDialog.msg('消息层');
 
         }
 
@@ -135,9 +133,6 @@ PlgDialog
         }
 
       //提示层
-
-
-
 
 
 
