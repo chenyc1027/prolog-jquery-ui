@@ -128,7 +128,7 @@ PlgDialog
 ```
 
 
-> 内置方法
+> layer.ready(callback) - 初始化就绪
 
 |名称 | 说明 |
 | :--- | :--- |
