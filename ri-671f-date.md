@@ -202,6 +202,7 @@ plgDate.render({
 ##value - 初始值
 类型：String，默认值：new Date()
 支持传入符合format参数设定的日期格式字符，或者 new Date()
+
 ```js
 //传入符合format格式的字符给初始值
 plgDate.render({ 
