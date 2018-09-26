@@ -89,6 +89,7 @@ PlgDate
 ```
 
 ># 基本参数
+
 ##elem - 绑定元素
 
 类型：String/DOM，默认值：无
@@ -109,6 +110,7 @@ PlgDate
       
       
 ##type - 控件选择类型
+
 类型：String，默认值：date
 用于单独提供不同的选择器类型，可选值如下表：
 
@@ -297,7 +299,7 @@ plgDate.render({
 
 右下角显示的按钮，会按照数组顺序排列，内置可识别的值有：clear、now、confirm
 
-##控件初始打开的回调
+##ready - 控件初始打开的回调
 控件在打开时触发，回调返回一个参数：初始的日期时间对象
 ```js
 codelayui.code
@@ -309,7 +311,7 @@ plgDate.render({
 });
 ```
 
-##日期时间被切换后的回调 
+##change-日期时间被切换后的回调 
 年月日时间被切换时都会触发。回调返回三个参数，分别代表：生成的值、日期时间对象、结束的日期时间对象
 ```js
 codelayui.code
@@ -323,7 +325,7 @@ plgDate.render({
 });
 ```
 
-##弹出控件提示
+##render-弹出控件提示
 事实上，执行核心方法 plgDate.render(options) 会返回一个当前实例对象。其中包含一些成员属性和方法，比如：hint方法
 ```js
 codelayui.code
