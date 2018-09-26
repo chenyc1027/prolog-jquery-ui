@@ -181,16 +181,16 @@ PlgDialog
 类似系统confirm，但却远胜confirm，另外它不是和系统的confirm一样阻塞你需要把交互的语句放在回调体中。同样的，它的参数也是自动补齐的。
 ```js
         //eg1
-        layer.confirm('is not?', {icon: 3, title:'提示'}, function(index){
+        plgDialog.confirm('is not?', {icon: 3, title:'提示'}, function(index){
           //do something
           
-          layer.close(index);
+          plgDialog.close(index);
         });
         //eg2
-        layer.confirm('is not?', function(index){
+        plgDialog.confirm('is not?', function(index){
           //do something
           
-          layer.close(index);
+          plgDialog.close(index);
         });
 ```
 
