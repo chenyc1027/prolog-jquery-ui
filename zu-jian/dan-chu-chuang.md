@@ -126,6 +126,9 @@ PlgDialog
     </script>
     
 ```
+> 内置方法
+名称|
+
 
 
 
