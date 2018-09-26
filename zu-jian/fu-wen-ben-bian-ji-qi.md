@@ -24,21 +24,21 @@ PlgEdit
 
 <script>
 var config = {
-renderer: 'demo',
-height: 200, // 此处只能是高度
-uploadImage: {
-url: '', //接口url
-type: '' //默认post
-}
+    renderer: 'demo',
+    height: 200, // 此处只能是高度
+    uploadImage: {
+        url: '', //接口url
+        type: '' //默认post
+        }
 }
 
 var plg = new PlgEdit(config);
 $('#getContent').on('click', function(){
-console.log(plg.plgEditgethander());
-console.log(plg.plgEditgetContent());
-console.log(plg.plgEditgetText());
-console.log(plg.plgEditsync());
-console.log(plg.plgEditgetSelection());
+    console.log(plg.plgEditgethander());
+    console.log(plg.plgEditgetContent());
+    console.log(plg.plgEditgetText());
+    console.log(plg.plgEditsync());
+    console.log(plg.plgEditgetSelection());
 })
 ```
 
@@ -82,12 +82,12 @@ var grid = $("div1").initPlgEdit(config);
 
 ```
 {
-"code": 0 //0表示成功，其它失败
-,"msg": "" //提示信息 //一般上传失败后返回
-,"data": {
-"src": "图片路径"
-,"title": "图片名称" //可选
-}
+"code": 0, //0表示成功，其它失败
+"msg": "", //提示信息 //一般上传失败后返回
+"data": {
+    "src": "图片路径",
+    "title": "图片名称" //可选
+    }
 }
 ```
 
