@@ -196,14 +196,14 @@ PlgDialog
 ##layer.load(icon, options) - 加载层
 load并不需要你传太多的参数，但如果你不喜欢默认的加载风格，你还有选择空间。icon支持传入0-2如果是0，无需传。另外特别注意一点：load默认是不会自动关闭的，因为你一般会在ajax回调体中关闭它。
 ```js
-//eg1
-var index = layer.load();
-//eg2
-var index = layer.load(1); //换了种风格
-//eg3
-var index = layer.load(2, {time: 10*1000}); //又换了种风格，并且设定最长等待10秒 
-//关闭
-layer.close(index);     
+        //eg1
+        var index = layer.load();
+        //eg2
+        var index = layer.load(1); //换了种风格
+        //eg3
+        var index = layer.load(2, {time: 10*1000}); //又换了种风格，并且设定最长等待10秒 
+        //关闭
+        layer.close(index);     
         
 
 ```
