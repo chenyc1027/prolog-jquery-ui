@@ -133,9 +133,9 @@ PlgDialog
 pagDialog内置了轻量级加载器，所以你根本不需要单独引入css等文件。但是加载总是需要过程的。当你在页面一打开就要执行弹层时，你最好是将弹层放入ready方法中，如：
 ```js
 //页面一打开就执行弹层
-layer.ready(function(){
-  layer.msg('很高兴一开场就见到你');
-});
+   plgDialog.ready(function () {
+            plgDialog.msg('很高兴一开场就见到你');
+        });
 ```
 
 
