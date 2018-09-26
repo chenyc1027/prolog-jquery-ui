@@ -151,55 +151,10 @@ PlgDialog
 
 
 
-构造方法
-
-```js
-方法一：
-var Sidebar1= plgSidebar(
-        {
-            url:"data.json",  
-            menuClick:function (data) {
-                var mid=data.meneId
-                    ,othis=data.$this
-                    ,getData=data.data.mapAll;
-
-                var obj=getData[othis.attr("menu-id")];
-
-            }
-        }
-    ).renderTo("#app");
-
-方法二：
-var Sidebar2=$("#app").plgSidebar(
-        {
-            url:"data.json", 
-            menuClick:function (data) {
-                var mid=data.meneId
-                    ,othis=data.$this
-                    ,getData=data.data.mapAll;
-                var obj=getData[othis.attr("menu-id")];
-
-            }
-        }
-
-    );
-```
+>#对象方法
 
 
 
-> 配置
-
-
-| 配置项 | 类型 | 说明 |
-| --- | --- | --- |
-| url | string | 数据接口 |
-| menClick | Function\(data\) | 点击二级或三级菜单的事件回调;回调参数data:{meneId:string,$this:object,data:objec } |
-
-> 方法
-
-| 方法 | 说明 |
-| --- | --- |
-|renderTo("#id \|\|.calss")|渲染节点挂载
 
 
 
