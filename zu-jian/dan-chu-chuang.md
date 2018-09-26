@@ -162,8 +162,8 @@ PlgDialog
         });      
         
 ```
-##plgDialog.open(options) - 原始核心方法
-基本上是露脸率最高的方法，不管是使用哪种方式创建层，都是走plgDialog.open()，创建任何类型的弹层都会返回一个当前层索引，上述的options即是基础参数，另外，该文档统一采用options作为**基础参数**的标识例子:
+##plgDialog.alert(content, options, yes) - 普通信息框 - 原始核心方法
+它的弹出似乎显得有些高调，一般用于对用户造成比较强烈的关注，类似系统alert，但却比alert更灵便。它的参数是自动向左补齐的。通过第二个参数，可以设定各种你所需要的基础参数，但如果你不需要的话，直接写回调即可。如
 ```js
         //eg1
         plgDialog.alert('只想简单的提示');        
