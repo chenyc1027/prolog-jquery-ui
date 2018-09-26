@@ -153,8 +153,8 @@ PlgDialog
 
 >#对象方法
 
-##layer.open(options) - 原始核心方法
-
+##plgDialog.ready(callback) - 初始化就绪
+由于我们的plgDialog内置了轻量级加载器，所以你根本不需要单独引入css等文件。但是加载总是需要过程的。当你在页面一打开就要执行弹层时，你最好是将弹层放入ready方法中，如：
 
 
 
