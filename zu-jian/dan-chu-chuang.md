@@ -193,6 +193,7 @@ PlgDialog
           plgDialog.close(index);
         });
 ```
+##layer.load(icon, options) - 加载层
 
 
 
