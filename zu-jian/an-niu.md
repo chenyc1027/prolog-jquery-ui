@@ -34,7 +34,7 @@ var grid = $("div1").initPlgButton(opts);
 
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
-| elem | 挂载点，是id，不需要写\`\#\` | elem |
+| renderer | 挂载点，是id，不需要写\`\#\` | elem |
 | type | 设置全局的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】 | 设置全局按钮的颜色 |
 | size | 设置全局的size可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
 | items | 设置按钮的局部参数 |  |
