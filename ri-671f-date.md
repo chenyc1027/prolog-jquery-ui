@@ -189,9 +189,11 @@ plgDate.render({
   ,range: true //或 range: '~' 来自定义分割字符
 });
 ```
-format - 自定义格式
->类型：String，默认值：yyyy-MM-dd
+##format - 自定义格式
+
+类型：String，默认值：yyyy-MM-dd
 通过日期时间各自的格式符和长度，来设定一个你所需要的日期格式。plgDate 支持的格式如下：
+
 ```js
 //自定义日期格式
 plgDate.render({ 
@@ -199,6 +201,7 @@ plgDate.render({
   ,format: 'yyyy年MM月dd日' //可任意组合
 });
 ```
+
 ##value - 初始值
 类型：String，默认值：new Date()
 支持传入符合format参数设定的日期格式字符，或者 new Date()
