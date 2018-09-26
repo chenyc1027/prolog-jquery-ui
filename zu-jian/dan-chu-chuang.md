@@ -30,7 +30,7 @@ PlgDialog
           <button id="dom_04" class="layui-btn">tab页</button>
           <button id="dom_05" class="layui-btn">loadn层</button>
           <button id="dom_06" class="layui-btn">tips</button>
-</div>
+        </div>
     
     </body>
 ```
