@@ -129,7 +129,7 @@ PlgDialog
 
 ---
 
- ## layer.ready\(callback\) - 初始化就绪
+ ## pagDialog.ready\(callback\) - 初始化就绪
 pagDialog内置了轻量级加载器，所以你根本不需要单独引入css等文件。但是加载总是需要过程的。当你在页面一打开就要执行弹层时，你最好是将弹层放入ready方法中，如：
 ```js
 //页面一打开就执行弹层
