@@ -89,10 +89,8 @@ PlgDialog
                 success: function (layero, index) {
                     //当你需要在层创建完毕时即执行一些语句，可以通过该回调。success会携带两个参数，分别是当前层DOM当前层索引。如：
                     console.log(layero, index);
-
                 }
             })
-
         }
 
         //tab页
@@ -110,7 +108,6 @@ PlgDialog
                     content: '内容3'
                 }]
             });
-
         }
 
         //loading加载
