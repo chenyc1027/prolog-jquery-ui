@@ -163,6 +163,7 @@ PlgDialog
         
 ```
 ##plgDialog.open(options) - 原始核心方法
+基本上是露脸率最高的方法，不管是使用哪种方式创建层，都是走plgDialog.open()，创建任何类型的弹层都会返回一个当前层索引，上述的options即是基础参数，另外，该文档统一采用options作为基础参数的标识例子：
 
 
 
