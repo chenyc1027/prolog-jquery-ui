@@ -16,6 +16,7 @@
   * [分页](zu-jian/fen-ye.md)
   * [按钮](zu-jian/an-niu.md)
   * [折叠面板/口风琴](zhe-die-mian-677f-kou-feng-qin.md)
+  * [日期-date](ri-671f-date.md)
   * [滑动导航菜单面板-Sidebar](zu-jian/hua-dong-dao-hang-cai-dan-mian-677f28-sidebar.md)
   * [富文本编辑器](fu-wen-ben-bian-ji-qi.md)
   * [导航](dao-hang-nav.md)
