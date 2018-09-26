@@ -153,7 +153,7 @@ PlgDialog
 
 >#对象方法
 
-
+##layer.open(options) - 原始核心方法
 
 
 
