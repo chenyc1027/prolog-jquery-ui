@@ -14,7 +14,6 @@ PlgButton
 <link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
 <script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
 <script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"></script>
 <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
 <script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
 ```
@@ -22,10 +21,29 @@ PlgButton
 > 构造方法
 
 ```
+使用的方法::
+var config = {
+    renderer: 'test1',
+    items:[
+    {text:"战神", type:'warn', size:"big", class: "k-1111"},   // 局部设置size
+    {text:"战神22", type:'', size:"big", soltPos: 'after', tpl: '<b>多个按钮的插槽<b>'}  // 局部设置size
+    ],
+    type: 'danger',
+    size: 'big',   // 全局设置size
+}
+var plg = new PlgButton(config5);
+
+
+plg.on("click", function(ind){
+    console.log('点击第几个的时候做什么');
+    console.log('ind::---' + ind);
+});
+
+
 方法一：
-var grid = new PlgButton(opts);
+var grid = new PlgButton(config);
 方法二：
-var grid = $("div1").initPlgButton(opts);
+var grid = $("div1").initPlgButton(config);
 ```
 
 ![](/assets/plgbtn.png)
