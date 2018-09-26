@@ -32,12 +32,52 @@ PlgBreadCrumb
 方法一：
 
 ```
-var grid = new PlgBreadCrumb(opts);
+`
+``
+使用的方法::
+<div id="testDemo">
+
+</div>
+
+<script>
+var config = {
+renderer: 'testDemo',
+separator: '', // 分隔符，默认是‘/’
+items: [
+    {
+        name: '藏青导航',
+        href: '#'
+    },
+    {
+        name: '产品',
+        href: '#'
+    },
+    {
+        name: '大数据',
+        href: '#'
+    },
+    {
+        name: '解决方案',
+        href: '#'
+    },
+    {
+        name: '社区',
+        href: '#'
+    }
+]
+};
+```
+
+方法一
+```
+var plg = new PlgBreadCrumb(config);
 ```
 
 方法二：
 
-var grid = $\("div1"\).initPlgBreadCrumb\(opts\);
+```javascript
+var grid = $("#testDemo").initPlgBreadCrumb(config);
+```
 
 > 图示
 
@@ -51,4 +91,4 @@ var grid = $\("div1"\).initPlgBreadCrumb\(opts\);
 |separator | 中间的分割线默认是【/】 | 设置全局按钮的颜色 |
 | items | 设置菜单的局部参数 | 同上 |
 | items\[name\] | 菜单的名称 | 字符串 |
-| items\[href\] | c | 同上 |
+| items\[href\] | 点击跳转的目的地 | 同上 |
