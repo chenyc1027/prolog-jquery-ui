@@ -129,8 +129,10 @@ PlgDialog
 
 ---
 
- ## pagDialog.ready\(callback\) - 初始化就绪
+## plgDialog.ready\(callback\) - 初始化就绪
+
 pagDialog内置了轻量级加载器，所以你根本不需要单独引入css等文件。但是加载总是需要过程的。当你在页面一打开就要执行弹层时，你最好是将弹层放入ready方法中，如：
+
 ```js
 //页面一打开就执行弹层
    plgDialog.ready(function () {
@@ -138,5 +140,16 @@ pagDialog内置了轻量级加载器，所以你根本不需要单独引入css�
         });
 ```
 
+## plgDialog.open\(options\) - 原始核心方法
+
+基本上是露脸率最高的方法，不管是使用哪种方式创建层，都是走layer.open\(\)，创建任何类型的弹层都会返回一个当前层索引，上述的options即是**基础参数**，另外，该文档统一采用options作为基础参数的标识例子：
+
+```js
+//页面一打开就执行弹层
+ var index = plgDialog.open({
+  content: 'test'
+});
+```
+## layer.alert(content, options, yes) - 普通信息框
 
 
