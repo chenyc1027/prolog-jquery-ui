@@ -128,6 +128,7 @@ PlgDialog
 ```
 
 ## layer.ready\(callback\) - 初始化就绪
+
 ```js
 //页面一打开就执行弹层
 layer.ready(function(){
