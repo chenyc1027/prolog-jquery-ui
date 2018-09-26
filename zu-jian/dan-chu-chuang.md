@@ -3,7 +3,7 @@
 > 组件名称
 
 ```
-PlgDiglog
+PlgDialog
 ```
 
 
