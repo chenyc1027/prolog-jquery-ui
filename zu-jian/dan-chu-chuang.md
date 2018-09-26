@@ -121,9 +121,7 @@ PlgDialog
         //tips提示
         document.querySelector("#dom_06").onclick = function () {
             plgDialog.tips('默认就是向右的', this);
-
         }
-
       //提示层
     </script>
     
