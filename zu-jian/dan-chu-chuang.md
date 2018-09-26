@@ -128,7 +128,7 @@ PlgDialog
 ```
 
 ---
-> 实例方法
+> # 实例方法
 
 ## plgDialog.ready\(callback\) - 初始化就绪
 
