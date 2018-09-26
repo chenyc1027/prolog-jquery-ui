@@ -162,7 +162,7 @@ PlgDialog
         });      
         
 ```
-##layer.open(options) - 原始核心方法
+##plgDialog.open(options) - 原始核心方法
 
 
 
