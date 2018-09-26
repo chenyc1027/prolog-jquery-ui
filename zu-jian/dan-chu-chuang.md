@@ -130,7 +130,7 @@ PlgDialog
 
 |名称 | 说明 |
 | :--- | :--- |
-| skin | 皮肤样式 |
+| layer.ready(callback) | 皮肤样式 |
 
 
 
