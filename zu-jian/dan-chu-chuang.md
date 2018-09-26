@@ -1,12 +1,12 @@
 ### 弹出框
 
-组件名称
+>组件名称
 
 ```
 PlgDialog
 ```
 
-快速使用
+>快速使用
 
 ```js
     <link rel="stylesheet" type="text/css" href="../../../modules/dhtmlx/grid/codebase/dhtmlxgrid.css" />
