@@ -1,6 +1,7 @@
-### 折叠面板/口风琴
-
+### 折叠面板/口风琴组件
+> ```
 > 组件名称
+> ```
 
 ```
 PlgCollapse
@@ -11,37 +12,98 @@ PlgCollapse
 ```
 <link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
 <script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../../modules/layui-master/dist/layui.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../modules/layui-master/dist/layui.all.js" type="text/javascript" charset="utf-8"></script>
 <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
-<script src="../codebase/PlgCollapse.js" type="text/javascript" charset="utf-8"></script>
+<script src="../../../components/PlgCollapse/codebase/PlgCollapse.js" type="text/javascript" charset="utf-8"></script>
 ```
 
 > 构造方法
 
 ```
-方法一：
-var grid = new PlgCollapse(opts);
-方法二：
-var grid = $("div1").initPlgCollapse(opts);
-```
+使用的方法::
+<div id="test1">
 
-> 折叠面板
+</div>
+
+<script>
+var options = {
+renderer: 'test1', // 挂载点
+model: 'accordion', // 【accordion -- 手风情模式】【codebase--折叠面板模式】
+items: [
+{
+title: '面板的名称1',
+content: '面板的名称1',
+show: true // 【true--展示】【false--隐藏】
+},
+{
+title: '面板的名称2',
+content: '面板的名称2',
+show: true // 【true--展示】【false--隐藏】
+},
+{
+title: '面板的名称3',
+content: '面板的名称3',
+show: true // 【true--展示】【false--隐藏】
+}
+]
+
+}
+
+var options1 = {
+renderer: 'test1', // 挂载点
+model: 'codebase', // 【accordion -- 手风情模式】【codebase--折叠面板模式】
+items: [
+{
+title: '面板的名称1',
+content: '面板的名称1',
+show: true // 【true--展示】【false--隐藏】
+}
+]
+}
+
+var options2 = {
+renderer: 'test1', // 挂载点
+model: 'codebase', // 【accordion -- 手风情模式】【codebase--折叠面板模式】
+items: [
+{
+title: '面板的名称1',
+content: '面板的名称1',
+show: true // 【true--展示】【false--隐藏】
+},
+{
+title: '面板的名称11',
+content: '面板的名称11',
+show: false // 【true--展示】【false--隐藏】
+},
+{
+title: '面板的名称111',
+content: '面板的名称111',
+show: false // 【true--展示】【false--隐藏】
+},
+{
+title: '面板的名称1111',
+content: '面板的名称1111',
+show: false // 【true--展示】【false--隐藏】
+},
+]
+}
+
+// var plg = new PlgCollapse(options);
+// var plg = new PlgCollapse(options1);
+var plg = new PlgCollapse(options2);
+```
 
 ![](/assets/collapse.png)
 
-> 口风琴
+> 配置
 
-![](/assets/accordion.png)
-
-| 属性 | 说明 | 示列 |
+| 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
-| elem | 挂载点,id，不需要写\# | test |
-| model | 模式 【accordion  -- 手风情模式】【codebase--折叠面板模式】，默认是【codebase--折叠面板模式】 |  |
-| items | 用户数据体 |  |
-| items\[title\] | 面板的头部，主要是展示部分 |  |
-| items\[content\] | 面板的主体，主要是现实内容的部分 |  |
-| items\[show\] | 面板的默认状态【show--展示】【false--隐藏，默认样式】 |  |
-
+| renderer | 挂载点，是id，不需要写\`\#\` | elem |
+| model | 【accordion -- 手风情模式】【codebase--折叠面板模式】 | 设置全局按钮的颜色 |
+| items | 设置菜单的局部参数 | 字符串 |
+| items\[title\] | 面板的主题 | 字符串 |
+| items\[content\] | 面板内容 | 字符串 |
+| items\[show\] | 模版的默认状态，是否显示 | 布尔值 |
 
 
