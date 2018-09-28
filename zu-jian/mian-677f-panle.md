@@ -1,13 +1,12 @@
-
 ## 面板
 
->组件名称
+> 组件名称
 
 ```
 PlgPanel
 ```
 
->快速使用
+> 快速使用
 
 ```js
  <link rel="stylesheet" type="text/css" href="../../../modules/dhtmlx/grid/codebase/dhtmlxgrid.css"/>
@@ -28,7 +27,7 @@ PlgPanel
     <script src="../codebase/PlgPanel.js" type="text/javascript" charset="utf-8"></script>
 
 
-    
+
 
 <body style="background: #fff; ">
 
@@ -54,9 +53,10 @@ PlgPanel
 </body>
 ```
 
+## ![](/assets/panel.png)
 
+## 实例方法
 
-##实例方法
 ```js
   //方法一
    plgPanel(config).renderTo("#app");
@@ -64,34 +64,19 @@ PlgPanel
   //方法二
 
     $("#app2").plgPanel(config);
-
-
 ```
 
-##基本参数
+## 基本参数
 
-|名称|类型|说明|
-|-|-|-|
-|title|string| 面板标题|
-|content|string|面板内容|
-|style|string|style 样式|
+| 名称 | 类型 | 说明 |
+| --- | --- | --- |
+| title | string | 面板标题 |
+| content | string | 面板内容 |
+| style | string | style 样式 |
 
+## 方法
 
-##方法
-方法 | 说明 |
-| --- | --- |
-|renderTo("#id")|渲染节点挂载
-
-
-
-
-
-
-
-
-
-
-
-
-
+方法 \| 说明 \|  
+\| --- \| --- \|  
+\|renderTo\("\#id"\)\|渲染节点挂载
 
