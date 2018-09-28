@@ -14,16 +14,37 @@ PlgUpload
 <link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
 
 <script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="../../../modules/layui-master/dist/layui.all.js"></script>
+
 <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../../components/PlgProgress/codebase/PlgProgress.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="../../../components/PlgUpload/codebase/PlgUpload.js" type="text/javascript" charset="utf-8"></script>
+
 ```
 
 > 构造方法
 
 ```
 使用的方法::
+<style>
+    body {
+        padding: 50px 100px;
+    }
+
+    .layui-upload-img {
+        width: 92px;
+        height: 92px;
+        margin: 0 10px 10px 0;
+    }
+
+    hr {
+        margin: 30px 0;
+    }
+</style>
+<body>
 <div id="testdemo"></div>
+</body>
 
 <script>
 layui.element.render();
