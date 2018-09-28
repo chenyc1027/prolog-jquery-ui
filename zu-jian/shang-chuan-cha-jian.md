@@ -239,11 +239,25 @@ PlgUpload
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
 | renderer | 挂载点，是id，不需要写\`\#\` | elem |
-| type | 是否显示百分比，【false --默认值，不展示】【true--展示】 | 布尔值 |
-| chooseFn | 用户数选择的 | 百分比 |
-| beforeFn | 厚度，显示进度条的大小，【默认空】可选参数【layui-progress-big】 | 字符串 |
-| doneFn | 背景颜色可选【layui-bg-red】【layui-bg-orange】【layui-bg-blue】【layui-bg-green】 | 字符串 |
-| errorFn | 背景颜色可选【layui-bg-red】【layui-bg-orange】【layui-bg-blue】【layui-bg-green】 | 字符串 |
+| type | 上传文件的类型，【'single'--单个文件，单个预览图】, 【'multiple'--多个文件，产生多一个预览图】, 【'multipleTable'--多个文件，产生table预览模式，分两步上传】, 【'multimedia'--不同媒体文件的上传】, 【'manualOperation'--分两步上传，需要手动点击两次】, 【'drag'--有图标的上传模式】, 【'origin'--原始的上传模式】 | string |
+| uploadParams | 上传参数的配置 |  |
+| uploadParams.headers | 上传路径 | string |
+| uploadParams.url | 上传路径 | string |
+| uploadParams.accept | 指定允许上传时校验的文件类型，可选值有：images（图片）、file（所有文件）、video（视频）、audio（音频） | string |
+|  | uploadParams.acceptMime | 规定打开文件选择框时，筛选出的文件类型，值为用逗号隔开的 MIME 类型列表。如： |
 
+acceptMime: 'image/\*'（只显示图片文件）   
+acceptMime: 'image/jpg, image/png'（只显示 jpg 和 png 文件） | callBack |  
+| uploadParams.exts \| 上传参数的配置 \| callBack \|  
+| uploadParams.size \| 上传参数的配置 \| callBack \|  
+| uploadParams.method \| 上传参数的配置 \| callBack \|  
+| uploadParams.fileAccept \| 上传参数的配置 \| callBack \|  
+| uploadParams.data \| 上传后带的参数 \| callBack \|  
+| uploadParams.auto \| 选定图片之后是否直接上传【false】【true】 \| boolean \|
 
+| chooseFn \| 用户选择了上传文件后触发的回掉函数 \| callBack |  
+\| beforeFn \| 上传文件前触发的函数 \| callBack \|  
+\| doneFn \| 图片上传完成后出发的效果 \| callBack \|  
+\| allDonerFn \| 多个文件上传全部成功出 \| callBack \|  
+\| errorFn \| 上传途中出错触发的效果 \| callBack \|
 
