@@ -1,15 +1,13 @@
 ### 上传组件
 
-> ```
-> 组件名称
-> ```
-
+> 组件名称 
 ```
 PlgUpload
 ```
 
 #### tips:
-- 此API需要配合后台一起测试，主要是返回参数的场景比较都
+- 此API需要配合后台一起测试，主要是返回参数的场景比较多
+- 参考网址https://www.layui.com/doc/modules/upload.html
 
   
 
