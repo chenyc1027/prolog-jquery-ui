@@ -20,5 +20,4 @@
   * [富文本编辑器](fu-wen-ben-bian-ji-qi.md)
   * [导航](dao-hang-nav.md)
   * [面包屑导航](mian-bao-xie-dao-hang.md)
-  * [面板-panle](zu-jian/mian-677f-panle.md)
 
