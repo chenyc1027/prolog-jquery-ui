@@ -1,15 +1,15 @@
 ### 上传组件
 
-> 组件名称 
-```
-PlgUpload
-```
+> 组件名称
+>
+> ```
+> PlgUpload
+> ```
 
 #### tips:
-- 此API需要配合后台一起测试，主要是返回参数的场景比较多
-- 参考网址https://www.layui.com/doc/modules/upload.html
 
-  
+* 此API需要配合后台一起测试，主要是返回参数的场景比较多
+* 参考网址[https://www.layui.com/doc/modules/upload.html](https://www.layui.com/doc/modules/upload.html)
 
 > 快速使用
 
@@ -240,29 +240,28 @@ PlgUpload
 > 配置
 
 | 属性 | 说明 | 类型 | 默认值 |
-| :--- | :--- | :--- | ---- |
+| :--- | :--- | :--- | --- |
 | renderer | 挂载点，是id，不需要写\`\#\` | elem | 空 |
 | type | 上传文件的类型，【'single'--单个文件，单个预览图】, 【'multiple'--多个文件，产生多一个预览图】, 【'multipleTable'--多个文件，产生table预览模式，分两步上传】, 【'multimedia'--不同媒体文件的上传】, 【'manualOperation'--分两步上传，需要手动点击两次】, 【'drag'--有图标的上传模式】, 【'origin'--原始的上传模式】 | string |  |
 | uploadParams | 上传参数的配置 | object |  |
 | uploadParams.headers | 上传路径 | string |  |
 | uploadParams.url | 上传路径 | string |  |
 | uploadParams.accept | 指定允许上传时校验的文件类型，可选值有：images（图片）、file（所有文件）、video（视频）、audio（音频） | string | images |
-| uploadParams. acceptMime | 规定打开文件选择框时，筛选出的文件类型，值为用逗号隔开的 MIME 类型列表。如：  *acceptMime: 'image/\*'*（只显示图片文件）  *acceptMime: 'image/jpg, image/png'*（只显示 jpg 和 png 文件）默认值【images】 | string | images |
-| uploadParams.exts | 允许上传的文件后缀。一般结合 *accept* 参数类设定。假设 accept 为 file 类型时，那么你设置 *exts: 'zip\|rar\|7z'* 即代表只允许上传压缩格式的文件。如果 accept 未设定，那么限制的就是图片的文件格式 | string | jpg\|png\|gif\|bmp\|jpeg |
-| uploadParams. auto | 是否选完文件后自动上传。如果设定 *false*，那么需要设置 *bindAction* 参数来指向一个其它按钮提交上传 | boolean | true |
+| uploadParams. acceptMime | 规定打开文件选择框时，筛选出的文件类型，值为用逗号隔开的 MIME 类型列表。如：  _acceptMime: 'image/\_'_（只显示图片文件）  _acceptMime: 'image/jpg, image/png'\*（只显示 jpg 和 png 文件）默认值【images】 | string | images |
+| uploadParams.exts | 允许上传的文件后缀。一般结合 _accept_ 参数类设定。假设 accept 为 file 类型时，那么你设置 _exts: 'zip\|rar\|7z'_ 即代表只允许上传压缩格式的文件。如果 accept 未设定，那么限制的就是图片的文件格式 | string | jpg\|png\|gif\|bmp\|jpeg |
+| uploadParams. auto | 是否选完文件后自动上传。如果设定 _false_，那么需要设置 _bindAction_ 参数来指向一个其它按钮提交上传 | boolean | true |
 | uploadParams.  size | 设置文件最大可允许上传的大小，单位 KB。不支持ie8/9 | number | 0 （即不限制） |
-| uploadParams.   multiple | 是否允许多文件上传。设置 *true*即可开启。不支持ie8/9 | boolean | false |
-| uploadParams.   number | 设置同时可上传的文件数量，一般配合 multiple 参数出现。 注意：*该参数为 layui 2.2.3 开始新增* | number | 0 （即不限制） |
+| uploadParams.   multiple | 是否允许多文件上传。设置 _true_即可开启。不支持ie8/9 | boolean | false |
+| uploadParams.   number | 设置同时可上传的文件数量，一般配合 multiple 参数出现。 注意：_该参数为 layui 2.2.3 开始新增_ | number | 0 （即不限制） |
 | chooseFn | 选择文件后的回调函数。返回一个object参数 | function |  |
 | beforeFn | 文件提交上传前的回调。返回一个object参数（同上），详见下文 | function |  |
-| doneFn | 执行上传请求后的回调。返回三个参数，分别为：*res*（服务端响应信息）、*index*（当前文件的索引）、*upload*（重新上传的方法，一般在文件上传失败后使用）。详见下文 | function |  |
-| errorFn | 执行上传请求出现异常的回调（一般为网络异常、URL 404等）。返回两个参数，分别为：*index*（当前文件的索引）、*upload*（重新上传的方法）。详见下文 | function ||
-
-
+| doneFn | 执行上传请求后的回调。返回三个参数，分别为：_res_（服务端响应信息）、_index_（当前文件的索引）、_upload_（重新上传的方法，一般在文件上传失败后使用）。详见下文 | function |  |
+| errorFn | 执行上传请求出现异常的回调（一般为网络异常、URL 404等）。返回两个参数，分别为：_index_（当前文件的索引）、_upload_（重新上传的方法）。详见下文 | function |  |
 
 #### Tips::
 
 图片上传之后返回的参数
+
 ```json
 {
   "code": 0
@@ -270,6 +269,8 @@ PlgUpload
   ,"data": {
     "src": "http://cdn.layui.com/123.jpg"
   }
-} 
+}
 ```
+
+
 
