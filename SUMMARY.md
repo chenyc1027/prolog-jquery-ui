@@ -9,7 +9,7 @@
   * [时间线](zu-jian/shi-jian-xian.md)
   * [徽章](zu-jian/hui-zhang.md)
   * [进度条](zu-jian/jin-du-tiao.md)
-  * [树形结构](zu-jian/shu-xing-jie-gou.md)
+  * [树形菜单-ztree](zu-jian/shu-xing-jie-gou.md)
   * [弹出窗/消息-dialog](zu-jian/dan-chu-chuang.md)
   * [分页](zu-jian/fen-ye.md)
   * [按钮](zu-jian/an-niu.md)

@@ -247,7 +247,7 @@
 | uploadParams.headers | 上传路径 | string |  |
 | uploadParams.url | 上传路径 | string |  |
 | uploadParams.accept | 指定允许上传时校验的文件类型，可选值有：images（图片）、file（所有文件）、video（视频）、audio（音频） | string | images |
-| uploadParams. acceptMime | 规定打开文件选择框时，筛选出的文件类型，值为用逗号隔开的 MIME 类型列表。如：  _acceptMime: 'image/\_'_（只显示图片文件）  _acceptMime: 'image/jpg, image/png'\*（只显示 jpg 和 png 文件）默认值【images】 | string | images |
+| uploadParams. acceptMime | 规定打开文件选择框时，筛选出的文件类型，值为用逗号隔开的 MIME 类型列表。如：  _acceptMime: 'image/\_'\_（只显示图片文件）  \_acceptMime: 'image/jpg, image/png'\*（只显示 jpg 和 png 文件）默认值【images】 | string | images |
 | uploadParams.exts | 允许上传的文件后缀。一般结合 _accept_ 参数类设定。假设 accept 为 file 类型时，那么你设置 _exts: 'zip\|rar\|7z'_ 即代表只允许上传压缩格式的文件。如果 accept 未设定，那么限制的就是图片的文件格式 | string | jpg\|png\|gif\|bmp\|jpeg |
 | uploadParams. auto | 是否选完文件后自动上传。如果设定 _false_，那么需要设置 _bindAction_ 参数来指向一个其它按钮提交上传 | boolean | true |
 | uploadParams.  size | 设置文件最大可允许上传的大小，单位 KB。不支持ie8/9 | number | 0 （即不限制） |
