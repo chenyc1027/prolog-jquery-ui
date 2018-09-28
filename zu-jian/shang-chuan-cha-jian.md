@@ -5,7 +5,7 @@
 > ```
 
 ```
-PlgProgress
+PlgUpload
 ```
 
 > 快速使用
