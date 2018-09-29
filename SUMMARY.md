@@ -2,7 +2,6 @@
 
 * [简介](README.md)
 * [组件](zu-jian.md)
-  * [按钮](zu-jian/an-niu.md)
   * [选项卡](zu-jian/xuan-xiang-qia.md)
   * [表格](zu-jian/biao-ge.md)
   * [表单](zu-jian/biao-dan.md)
