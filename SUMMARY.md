@@ -2,7 +2,6 @@
 
 * [简介](README.md)
 * [组件](zu-jian.md)
-  * [按钮](zu-jian/an-niu.md)
   * [选项卡](zu-jian/xuan-xiang-qia.md)
   * [表格](zu-jian/biao-ge.md)
   * [表单](zu-jian/biao-dan.md)
@@ -20,4 +19,5 @@
   * [富文本编辑器](fu-wen-ben-bian-ji-qi.md)
   * [导航](dao-hang-nav.md)
   * [面包屑导航](mian-bao-xie-dao-hang.md)
+  * [上传](zu-jian/shang-chuan.md)
 
