@@ -19,4 +19,5 @@
   * [富文本编辑器](fu-wen-ben-bian-ji-qi.md)
   * [导航](dao-hang-nav.md)
   * [面包屑导航](mian-bao-xie-dao-hang.md)
+  * [上传](zu-jian/shang-chuan.md)
 
