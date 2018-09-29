@@ -8,10 +8,9 @@
   * [时间线](zu-jian/shi-jian-xian.md)
   * [徽章](zu-jian/hui-zhang.md)
   * [进度条](zu-jian/jin-du-tiao.md)
-  * [树形结构](zu-jian/shu-xing-jie-gou.md)
-  * [树形表格](zu-jian/shu-xing-biao-ge.md)
+  * [面板-panel](zu-jian/mian-677f-panle.md)
+  * [树形菜单-ztree](zu-jian/shu-xing-jie-gou.md)
   * [弹出窗/消息-dialog](zu-jian/dan-chu-chuang.md)
-  * [弹出菜单](zu-jian/dan-chu-cai-dan.md)
   * [分页](zu-jian/fen-ye.md)
   * [按钮](zu-jian/an-niu.md)
   * [折叠面板/口风琴](zhe-die-mian-677f-kou-feng-qin.md)
@@ -20,5 +19,4 @@
   * [富文本编辑器](fu-wen-ben-bian-ji-qi.md)
   * [导航](dao-hang-nav.md)
   * [面包屑导航](mian-bao-xie-dao-hang.md)
-  * [上传插件](zu-jian/shang-chuan-cha-jian.md)
 
