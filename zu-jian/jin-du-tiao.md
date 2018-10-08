@@ -113,13 +113,8 @@ PlgProgress
 
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
-| renderer | 挂载点，是id，不需要写\`\#\` | elem |
-| showPercent | 是否显示百分比，【false --默认值，不展示】【true--展示】 | 布尔值 |
-| percent | 设置菜单的局部参数 | 小数0-1中间的小数 |
-| thickness | 厚度，显示进度条的大小，【默认空】可选参数【layui-progress-big】 | 字符串 |
-| startBgColor | 初始的颜色 | 字符串 |
-| endBgColor | 完成所有的进度之后的颜色 | 字符串 |
-| time | 速度，以秒为单位 | 数值 |
+| on | 点击进度条的时候触发的事件 | elem |
+
 
 
 
