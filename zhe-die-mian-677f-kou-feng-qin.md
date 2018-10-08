@@ -101,10 +101,11 @@ var plg = new PlgCollapse(options2);
 | 属性 | 说明 | 示例 |
 | :--- | :--- | :--- |
 | renderer | 挂载点，是id，不需要写\`\#\` | elem |
-| model | 【accordion -- 手风情模式】【codebase--折叠面板模式】 | 设置全局按钮的颜色 |
+| model | 【accordion -- 手风情模式】【codebase--折叠面板模式】 |  |
 | items | 设置菜单的局部参数 | 字符串 |
 | items\[title\] | 面板的主题 | 字符串 |
 | items\[content\] | 面板内容 | 字符串 |
 | items\[show\] | 模版的默认状态，是否显示 | 布尔值 |
+
 
 
