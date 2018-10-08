@@ -25,49 +25,49 @@ PlgNav
 ```
 使用的方法::
 var config = {
-renderer: 'testDemo',
-skin: 'layui-bg-blue', // layui-bg-cyan（藏青）、layui-bg-molv（墨绿）、layui-bg-blue（艳蓝）
-items: [
-{
-name: '藏青导航11',
-href: '#',
-defatuleSelected: false,
-},
-{
-name: '产品',
-href: '#',
-defatuleSelected: false,
-},
-{
-name: '大数据',
-href: '#',
-defatuleSelected: false,
-},
-{
-name: '解决方案',
-href: '#',
-defatuleSelected: true,
-childItems: [
-{
-name: '移动模块1',
-href: '#',
-isSelected: true
-},
-{
-name: '移动模块2',
-href: '#'
-},
-{
-name: '移动模块2',
-href: '#'
-}
-]
-},
-{
-name: '社区',
-href: '#',
-defatuleSelected: false,
-}
+    renderer: 'testDemo',
+    skin: 'layui-bg-blue', // layui-bg-cyan（藏青）、layui-bg-molv（墨绿）、layui-bg-blue（艳蓝）
+    items: [
+        {
+            name: '藏青导航11',
+            href: '#',
+            defatuleSelected: false,
+        },
+        {
+            name: '产品',
+            href: '#',
+            defatuleSelected: false,
+        },
+        {
+            name: '大数据',
+            href: '#',
+            defatuleSelected: false,
+        },
+        {
+        name: '解决方案',
+        href: '#',
+        defatuleSelected: true,
+        childItems: [
+            {
+                name: '移动模块1',
+                href: '#',
+                isSelected: true
+            },
+            {
+                name: '移动模块2',
+                href: '#'
+            },
+            {
+                name: '移动模块2',
+                href: '#'
+            }
+        ]
+    },
+    {
+        name: '社区',
+        href: '#',
+        defatuleSelected: false,
+    }
 ]};
 
 var plg = new PlgNav(config);
@@ -95,9 +95,6 @@ var grid = $("div1").initPlgNav(config);
 | items\[childItems\]\[name\] | 菜单的名称 | 同上 |
 | items\[childItems\]\[href\] | 菜单的名称 | 同上 |
 | items\[childItems\]\[defatuleSelected\] | 默认是否选中，选中该文字下面会有小横线 | 同上 |
-
-
-
 
 
 
