@@ -57,7 +57,7 @@ var grid = $("div1").initPlgButton(config);
 | size | 设置全局的size可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
 | items | 设置按钮的局部参数 |  |
 | items\[type\] | 设置局部的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】 | isGroup: true |
-| items\[size\] | 设置局部的size可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
+| items[size] | 设置局部的size可选参数【big】【small】【mini】【danger】，默认为空 | 同上 |
 | items\[text\] | 设置局部的值，主要用来 | 同上 |
 | items\[class\] | 用户自定义class名称 | 同上 |
 | items\[soltPos\] | 预留用户使用的插槽，主要是在按钮里面文本的before和after的两个地方插入指定的模版【before】【after】 | 同上 |
