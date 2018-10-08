@@ -102,7 +102,7 @@ PlgProgress
 | :--- | :--- | :--- |
 | renderer | 挂载点，是id，不需要写\`\#\` | elem |
 | showPercent | 是否显示百分比，【false --默认值，不展示】【true--展示】 | 布尔值 |
-| percent | 设置菜单的局部参数 | 百分比 |
+| percent | 设置菜单的局部参数 | 小数0-1中间的小树 |
 | thickness | 厚度，显示进度条的大小，【默认空】可选参数【layui-progress-big】 | 字符串 |
 | bgColor | 背景颜色可选【layui-bg-red】【layui-bg-orange】【layui-bg-blue】【layui-bg-green】 | 字符串 |
 
