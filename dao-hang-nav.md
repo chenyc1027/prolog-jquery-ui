@@ -87,7 +87,7 @@ var grid = $("div1").initPlgNav(config);
 | :--- | :--- | :--- |
 | renderer | 挂载点，是id，不需要写\`\#\` | elem |
 | skin | 设置nav的颜色，可选参数，【layui-bg-blue】【layui-bg-cyan】【layui-bg-molv】 | 设置全局按钮的颜色 |
-| items | 设置菜单的局部参数 | 同上 |
+| items | 设置菜单的局部参数 | ArrayObject |
 | items\[name\] | 菜单的名称 | 字符串 |
 | items\[href\] | c | 同上 |
 | items\[defatuleSelected\] | 默认是否选中，选中该文字下面会有小横线 | 同上 |
