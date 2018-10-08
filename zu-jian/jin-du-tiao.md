@@ -10,6 +10,8 @@ PlgProgress
 
 > 快速使用
 
+【Tips】使用了一个插件```jquery.color.animations.js```
+
 ```
 <link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
 
@@ -106,7 +108,7 @@ PlgProgress
 | thickness | 厚度，显示进度条的大小，【默认空】可选参数【layui-progress-big】 | 字符串 |
 | startBgColor | 初始的颜色 | 字符串 |
 | endBgColor | 完成所有的进度之后的颜色 | 字符串 |
-| time | 速度，以秒为单位 | 数值 |
+| time | 速度，以秒为单位 | 数值 | 
 
 
 > 事件
