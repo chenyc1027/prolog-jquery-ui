@@ -83,10 +83,10 @@ var confing={
 
 | 方法 | 说明 |
 | --- | --- |
-| renderTo\("\#id"\) | 渲染节点挂载 |
-| getZtree | 获得Ztree实例对象方法 |
+| renderTo\(id\) | 渲染节点挂载 |
+|  |  |
 
-## plgZtree.getZtree实便方法说明
+## plgZtree.treeObj实便方法说明
 
 api参考网址[http://www.treejs.cn/v3/api.php](http://www.treejs.cn/v3/api.php)
 
