@@ -1,12 +1,12 @@
 ### 选项卡
 
->组件名称
+> 组件名称
 
 ```
 PlgTabs
 ```
 
->快速使用
+> 快速使用
 
 ```js
  <link rel="stylesheet" type="text/css" href="../../../modules/dhtmlx/grid/codebase/dhtmlxgrid.css"/>
@@ -132,13 +132,12 @@ PlgTabs
 
 </script>
 
-    
+
 </body>
 ```
 
+## 实例方法
 
-
-##实例方法
 ```js
 方法一：
   var tabs= plgTabs(options); //创建实例
@@ -146,36 +145,27 @@ PlgTabs
       tabs.on(callback);//Click事件回调方法
 
 方法二：
-    
+
     $("#app3").plgTabs(config3).renderTo("#app3").on(function (ele) {
         console.log(this)
     });
-
 ```
 
-##基本参数
+## 基本参数
 
-|名称|类型|说明|
-|-|-|-|
-|indexActive|number|初始化默认选中项下标，默认为0，(可选)|
-|skin|string|皮肤样式，"normal","brief","card",默认为normal，(可选)|
-|filter|string|过滤选择器，默认为plgTabs1231..."，(可选)|
-|content|ArrryObject|[{ title:"标题",template:内容模版，可以是html文档对象]},(必选)|
+| 名称 | 类型 | 说明 |
+| --- | --- | --- |
+| indexActive | number | 初始化默认选中项下标，默认为0，\(可选\) |
+| skin | string | 皮肤样式，"normal","brief","card",默认为normal，\(可选\) |
+| filter | string | 过滤选择器，默认为plgTabs1231..."，\(可选\) |
+| content | ArrryObject | \[{ title:"标题",template:内容模版，可以是html文档对象\]},\(必选\) |
 
-##方法
+## 方法
 
-|方法 | 说明 |
+| 方法 | 说明 |
 | --- | --- |
-|renderTo("#id \|\|.calss")|渲染节点挂载
-|on|点击选项卡Click事件回调方法
-
-
-
-
-
-
-
-
+| renderTo\(id\) | 渲染节点挂载 |
+| on | 点击选项卡Click事件回调方法 |
 
 
 
