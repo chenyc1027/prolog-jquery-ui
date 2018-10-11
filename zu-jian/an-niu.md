@@ -98,15 +98,15 @@ var grid = $("#div1").initPlgButton(config);
 | 属性 | 说明 | 数据类型 | 默认值 |
 | :--- | :--- | :--- | :--- |
 | renderer | 挂载点，是id，不需要写\`\#\` |  | elem |
-| type | 设置全局的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】 |  | 设置全局按钮的颜色 |
-| size | 设置全局的size可选参数【big】【small】【mini】【danger】，默认为空 |  | 同上 |
-| radius | 是否是圆角，默认值为空,可选参数【radius】 |  |  |
-| items | 设置按钮的局部参数 |  |  |
-| items\[type\] | 设置局部的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】 |  | isGroup: true |
-| items\[size\] | 设置局部的size可选参数【big】【small】【mini】【danger】，默认为空 |  | 同上 |
-| items\[text\] | 设置局部的值，主要用来 |  | 同上 |
-| items\[class\] | 用户自定义class名称 |  | 同上 |
-| items\[radius\] | 按钮是否为圆角 |  | 同上 |
+| type | 设置全局的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】 | String | 设置全局按钮的颜色 |
+| size | 设置全局的size可选参数【big】【small】【mini】【danger】，默认为空 | String | - |
+| radius | 是否是圆角，默认值为空,可选参数【radius】 | String | - |
+| items | 设置按钮的局部参数 | ArrayObject |  |
+| items\[type\] | 设置局部的按钮type，主要是改变按钮的颜色，可选参数，默认参数为空【warn】【primary】【danger】【disabled】  【normal】 |  | - |
+| items\[size\] | 设置局部的size可选参数【big】【small】【mini】【danger】，默认为空 | String | - |
+| items\[text\] | 设置局部的值，主要用来，可以是一个dom字符串 | String | - |
+| items\[class\] | 用户自定义class名称， 可选参数 | String | - |
+| items\[radius\] | 按钮是否为圆角【radius】 | String | - |
 
 > 事件
 
