@@ -11,16 +11,6 @@ PlgButton
 > 快速使用
 
 ```
-<link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
-<script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../../modules/layer/layer.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
-<script src="../codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
-```
-
-> 构造方法
-
-```
 使用的方法::
 <!DOCTYPE html>
 <html lang="en">
@@ -29,52 +19,98 @@ PlgButton
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="../../../modules/layui-master/dist/css/layui.css"/>
-    <title>button组件</title>
+    <title>Plgbutton按钮的封装</title>
     <style>
         body{padding: 10px;}
+
+        div {
+            margin-top: 10px;
+        }
+        
     </style>
+    <script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../../modules/layui-master/dist/layui.all.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../../modules/dhtmlx/grid/codebase/dhtmlxgrid.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../../components/PlgButton/codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
+    
 </head>
 <body>
-  <div id="test1"></div>
 
+    <h4>button普通调用</h4>
+    <div id="test"></div>
+    <hr />
 
-  <script src="../../../modules/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../../../modules/layui-master/dist/layui.all.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../../../modules/dhtmlx/grid/codebase/dhtmlxgrid.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../../../core/plgcore.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../../../components/PlgButton/codebase/PlgButton.js" type="text/javascript" charset="utf-8"></script>
-  <script>    
-    // var grid = $("#test1").initPlgButton(config4);
-    var config = {
-        renderer: 'test1',
-        items:[
-            {text:"<i class='layui-icon'>&#xe642;</i>战神22<b>多个按钮的插槽<b>", type:'', size:"big"}  // 局部设置size
-        ],
-        type: 'danger',
-        size: 'big',   // 全局设置size
-        radius: 'radius'  // 全局设置是否是圆角
-    }
+    <h4>button普通调用</h4>
+    <div id="test1"></div>
+    <hr />
 
-    var config1 = {
-        renderer: 'test1',
-        items:[
-            {text:"战神", type:'warn', size:"big", class: "k-1111"},   // 局部设置size
-            {text:"<i class='layui-icon'>&#xe642;</i>战神22<b>多个按钮的插槽<b>", type:'', size:"big"}  // 局部设置size
-        ],
-        type: 'danger',
-        size: 'big',   // 全局设置size
-        radius: 'radius'  // 全局设置是否是圆角
-    }
-    var plg = new PlgButton(config1);
+    <h4>button普通调用</h4>
+    <div id="test2"></div>
+    <hr />
 
+    <script>
+        var config = {
+            renderer: 'test', //注意，这里的 test1 是 ID，不用加 # 号
+            items: [
+                { 
+                    text: '天上有漂亮的星星',
+                    type: 'primary',
+                    size: 'big',
+                    class: 'big',
+                    radius: 'radius'
+                }
+            ]
+        }
+        var plg = new PlgButton(config);
 
-    plg.on("click", function(ind){
-        console.log('点击第几个的时候做什么');
-        console.log('ind::---' + ind);
-    });
+        plg.on("click", function(ind){
+            console.log('点击第几个的时候做什么');
+            console.log('ind::---' + ind);
+        });
 
+        var config1 = {
+            renderer: 'test1', //注意，这里的 test1 是 ID，不用加 # 号
+            items: [
+                { 
+                    text: '天上有漂亮的星星',
+                    type: 'primary',
+                    size: 'big',
+                    class: 'big',
+                    radius: 'radius'
+                },
+                { 
+                    text: '<i class="layui-icon">&#xe603;</i>月亮',
+                    type: 'danger',
+                    size: 'big',
+                    class: 'big',
+                    radius: 'radius'
+                }
+            ]
+        }
+        // var plg = new PlgButton(config);
+        var plg1 = $("#test1").initPlgButton(config1);
 
-  </script>
+        plg1.on("click", function(ind){
+            console.log('点击第几个的时候做什么');
+            console.log('ind::---' + ind);
+        });
+
+        var config2 = {
+            renderer: 'test2', //注意，这里的 test1 是 ID，不用加 # 号
+            items: [
+                { 
+                    text: '<i class="layui-icon">&#xe603;</i>',
+                    type: 'warn',
+                    size: 'big',
+                    class: 'big',
+                    radius: 'radius'
+                }
+            ]
+        }
+        // var plg = new PlgButton(config);
+        var plg1 = $("#test2").initPlgButton(config2);
+    </script>
 </body>
 </html>
 ```
