@@ -77,12 +77,16 @@ PlgButton
   </script>
 </body>
 </html>
+```
 
 
 方法一：
+```
 var grid = new PlgButton(config);
+```
 方法二：
-var grid = $("div1").initPlgButton(config);
+```
+var grid = $("#div1").initPlgButton(config);
 ```
 
 ![](/assets/plgbtn.png)
