@@ -43,9 +43,9 @@ var grid = new PlgPage(config);
 ```
 
 方法二：
-
+```
 var grid = $\("div1"\).initPlgPage\(config\);
-
+```
 ![](/assets/page.png)
 
 > 配置
