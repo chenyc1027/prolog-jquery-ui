@@ -39,12 +39,12 @@ console.log('ind::---' + ind);
 方法一：
 
 ```
-var grid = new PlgPage(config);
+var grid = new PlgPages(config);
 ```
 
 方法二：
 ```
-var grid = $("#div1").initPlgPage(config);
+var grid = $("#div1").initPlgPages(config);
 ```
 ![](/assets/page.png)
 
