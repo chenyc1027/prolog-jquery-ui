@@ -29,9 +29,7 @@ PlgBreadCrumb
 
 > 构造方法
 
-方法一：
-
-``
+```
 使用的方法::
     <div id="test"></div>
     <div id="test1"></div>
@@ -93,17 +91,17 @@ PlgBreadCrumb
 
         var plg1 = $('#test1').initPlgBreadCrumb(config1);
       </script>
-
 ```
 
 方法一
+
 ```
 var plg = new PlgBreadCrumb(config);
 ```
 
 方法二：
 
-```javascript
+```
 var grid = $("#testDemo").initPlgBreadCrumb(config);
 ```
 
@@ -113,10 +111,13 @@ var grid = $("#testDemo").initPlgBreadCrumb(config);
 
 > 配置
 
-| 属性 | 说明 | 示例 |
-| :--- | :--- | :--- |
-| elem | 挂载点，是id，不需要写\`\#\` | elem |
-|separator | 中间的分割线默认是【/】 | 设置全局按钮的颜色 |
-| items | 设置菜单的局部参数 | 同上 |
-| items\[name\] | 菜单的名称 | 字符串 |
-| items\[href\] | 点击跳转的目的地 | 同上 |
+| 属性 | 说明 | 类型 | 默认值 |
+| :--- | :--- | :--- | :--- |
+| elem | 挂载点，是id，不需要写\`\#\` | String | id |
+| separator | 中间的分割线默认是【/】 | String | / |
+| items | 设置菜单的局部参数 | ArrayObject |  |
+| items\[name\] | 菜单的名称 | String | - |
+| items\[href\] | 点击跳转的目的地 | String | - |
+
+
+
