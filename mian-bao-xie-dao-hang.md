@@ -31,41 +31,69 @@ PlgBreadCrumb
 
 方法一：
 
-```
-`
 ``
 使用的方法::
-<div id="testDemo">
+    <div id="test"></div>
+    <div id="test1"></div>
+    <script>
+        var config = {
+            renderer: 'test',
+            separator: '',  // 分隔符，默认是‘/’ 
+            items: [
+                {
+                    name: '藏青导航',
+                    href: '#'
+                },
+                {
+                    name: '产品',
+                    href: '#'
+                },
+                {
+                    name: '大数据',
+                    href: '#'
+                },
+                {
+                    name: '解决方案',
+                    href: '#'
+                },
+                {
+                    name: '社区',
+                    href: '#'
+                }
+            ]};
 
-</div>
+        var plg = new PlgBreadCrumb(config);
 
-<script>
-var config = {
-renderer: 'testDemo',
-separator: '', // 分隔符，默认是‘/’
-items: [
-    {
-        name: '藏青导航',
-        href: '#'
-    },
-    {
-        name: '产品',
-        href: '#'
-    },
-    {
-        name: '大数据',
-        href: '#'
-    },
-    {
-        name: '解决方案',
-        href: '#'
-    },
-    {
-        name: '社区',
-        href: '#'
-    }
-]
-};
+
+        var config1 = {
+            renderer: 'test1',
+            separator: '--',  // 分隔符，默认是‘/’ 
+            items: [
+                {
+                    name: '藏青导航111',
+                    href: '#'
+                },
+                {
+                    name: '产品111',
+                    href: '#'
+                },
+                {
+                    name: '大数据111',
+                    href: '#'
+                },
+                {
+                    name: '解决方案111',
+                    href: '#'
+                },
+                {
+                    name: '社区111',
+                    href: '#'
+                }
+            ]};
+
+        var plg1 = $('#test1').initPlgBreadCrumb(config1);
+      </script>
+
 ```
 
 方法一
