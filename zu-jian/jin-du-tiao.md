@@ -76,7 +76,7 @@ PlgProgress
 | percent | 设置菜单的局部参数 | Number（小数0-1中间的小数） | - |
 | thickness | 厚度，显示进度条的大小，【默认空】可选参数【layui-progress-big】 | String | - |
 | startBgColor | 初始的颜色 | String | - |
-| endBgColor | 完成所有的进度之后的颜色 | String | - |
+| endBgColor | 完成所有的进度之后的颜色 | String | '1E9FFF' |
 | time | 速度，以秒为单位 | Number | 0.4 |
 
 > 事件
