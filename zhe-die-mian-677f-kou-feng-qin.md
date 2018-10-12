@@ -29,7 +29,7 @@ PlgCollapse
     <h4>折叠面板模式</h4>
     <div id="test1"></div>
     <hr />
-
+    
     <h4>手风情式的折叠面板</h4>
     <div id="test2"></div>
     <hr />
