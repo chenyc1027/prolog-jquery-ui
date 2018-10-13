@@ -102,7 +102,7 @@ var grid = $("#div1").initPlgEdit(config);
 | height | 文本框的高度，正整数，单位是px | Number | height: 50 |
 | tool | 文本框菜单栏显示的功能，主要有【·strong\`-- 加粗】【\`italic\`-- 斜体】【 \`underline\`-- 下划线】【 \`del\` -- 删除线】【\`\|\` -- 分割线】【\`left\`--左对齐】【\`center\` --居中对齐】【\`right\`--右对齐】【\`link\`--超链接】【\`unlink\`--清除链接】【\`face\`-- 表情】【\`image\`--插入图片】 【\`help\`-- 帮助】 | Array | 是一个数组，默认这些都会显示 |
 | hideTool | 参数同上，主要是在菜单中不显示传入的参数 | Array | 与上面的tool相反 |
-| uploadImage | 上传图片的API | Object |  |
+| uploadImage | 上传图片的API，设定图片上传接口，如：uploadImage: {url: '/upload/', type: 'pos | Object |  |
 | uploadImage\[url\] | 上传图片的地址 | String |  |
 | uploadImages\[type\] | 默认是post | String |  |
 
