@@ -6,6 +6,10 @@
 PlgCardList
 ```
 
+> 效果示意
+
+ ![](/assets/cardList.png)
+
 > 快速使用
 
 ```js
@@ -114,6 +118,4 @@ function starFn1(obj) {
 console.log(obj);
 }
 ```
-
-
 
